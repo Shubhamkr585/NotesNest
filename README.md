@@ -182,8 +182,6 @@ notes-selling-platform/
 
 - **Current State:** The project is set up with basic structure and dependencies. Functionality like note viewing, payments, and ads will be implemented next.
 - **Environment Variables:** Ensure `.env` files are configured correctly for MongoDB and Razorpay.
-- **Styling:** Consider adding Tailwind CSS or another framework for a polished UI.
-
 ---
 
 ## Contributing
