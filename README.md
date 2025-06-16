@@ -26,7 +26,7 @@ This project is in its initial setup phase and will eventually include features 
 
 **Planned Integrations:**
 - Razorpay (for payments)
-- AWS S3 (for file storage)
+- Cloudinary (for file storage)
 - JWT (for authentication)
 
 ---
