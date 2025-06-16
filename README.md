@@ -6,7 +6,6 @@ The Notes Selling Platform is a web application built using the MERN stack (Mong
 
 This project is in its initial setup phase and will eventually include features like free first-time note viewing, advertisement-based subsequent views, secure payments via Razorpay, and exclusive access to toppers’ short tricks and guides.
 
-This project demonstrates full-stack development skills with the MERN stack, focusing on modern tools like Vite for the frontend.
 
 ---
 
