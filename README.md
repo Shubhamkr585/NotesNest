@@ -1,39 +1,44 @@
+# Notes Selling Platform (v1)
 
-Notes Selling Platform (v1)
+## Overview
 
-Overview
+The Notes Selling Platform is a web application built using the MERN stack (MongoDB, Express.js, React, Node.js) to enable toppers of competitive exams, initially JEE (Main and Advanced) and UPSC, to sell their study notes to buyers. The platform aims to provide a seamless experience for sellers to upload notes and buyers to browse, view, and purchase them.
 
-The Notes Selling Platform is a web application built using the MERN stack (MongoDB, Express.js, React, Node.js) to enable toppers of competitive exams, initially JEE (Main and Advanced) and UPSC, to sell their study notes to buyers. The platform aims to provide a seamless experience for sellers to upload notes and buyers to browse, view, and purchase them. This project is in its initial setup phase and will eventually include features like free first-time note viewing, advertisement-based subsequent views, secure payments via Razorpay, and exclusive access to toppers’ short tricks and guides.
+This project is in its initial setup phase and will eventually include features like free first-time note viewing, advertisement-based subsequent views, secure payments via Razorpay, and exclusive access to toppers’ short tricks and guides.
+
 This project demonstrates full-stack development skills with the MERN stack, focusing on modern tools like Vite for the frontend.
-Current Status
-Backend: Set up with Express.js, MongoDB (via Mongoose), and basic API routes.
 
-Frontend: Initialized with Vite (React), including JSX components and routing via React Router.
+---
 
-Dependencies: Installed necessary packages for both backend and frontend.
+## Current Status
 
-Tech Stack
-Frontend: React.js (Vite, JSX), React Router, Axios
+- **Backend:** Set up with Express.js, MongoDB (via Mongoose), and basic API routes.
+- **Frontend:** Initialized with Vite (React), including JSX components and routing via React Router.
+- **Dependencies:** Installed necessary packages for both backend and frontend.
 
-Backend: Node.js, Express.js, Mongoose
+---
 
-Database: MongoDB (local or MongoDB Atlas)
+## Tech Stack
 
-Build Tool: Vite (frontend)
+- **Frontend:** React.js (Vite, JSX), React Router, Axios
+- **Backend:** Node.js, Express.js, Mongoose
+- **Database:** MongoDB (local or MongoDB Atlas)
+- **Build Tool:** Vite (frontend)
 
-Planned Integrations:
-Razorpay (for payments)
+**Planned Integrations:**
+- Razorpay (for payments)
+- AWS S3 (for file storage)
+- JWT (for authentication)
 
-AWS S3 (for file storage)
+---
 
-JWT (for authentication)
+## Folder Structure
 
-Folder Structure
-
+```
 notes-selling-platform/
 ├── backend/
-│   ├── config/                   # Database configuration
-│   │   └── db.js
+│   ├── db/                   # Database configuration
+│   │   └── connection.js
 │   ├── controllers/              # Request handling logic
 │   │   ├── authController.js
 │   │   ├── notesController.js
@@ -70,120 +75,124 @@ notes-selling-platform/
 │   ├── vite.config.js            # Vite configuration
 ├── .env                          # Environment variables
 └── README.md                     # Project documentation
+```
 
-Prerequisites
-Node.js (v14 or higher)
+---
 
-MongoDB (local or MongoDB Atlas)
+## Prerequisites
 
-Razorpay account (for future payment integration)
+- Node.js (v14 or higher)
+- MongoDB (local or MongoDB Atlas)
+- Razorpay account (for future payment integration)
+- AWS S3 account (optional, for future file storage)
 
-AWS S3 account (optional, for future file storage)
+---
 
-Setup Instructions
-Backend Setup
-Navigate to the backend folder:
-bash
+## Setup Instructions
 
-cd backend
+### Backend Setup
 
-Initialize the project (if not already done):
-bash
+1. Navigate to the backend folder:
+    ```sh
+    cd backend
+    ```
+2. Initialize the project (if not already done):
+    ```sh
+    npm init -y
+    ```
+3. Install dependencies:
+    ```sh
+    npm install express mongoose dotenv jsonwebtoken bcryptjs razorpay pdf-lib
+    ```
+4. Create a `.env` file in the backend folder with:
+    ```
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret
+    RAZORPAY_KEY_ID=your_razorpay_key_id
+    RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+    PORT=5000
+    ```
+5. Start the backend server:
+    ```sh
+    node server.js
+    ```
 
-npm init -y
+### Frontend Setup
 
-Install dependencies:
-bash
+1. Navigate to the frontend folder:
+    ```sh
+    cd frontend
+    ```
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+    > Vite includes react, react-dom, and @vitejs/plugin-react. Additional dependencies (axios, react-router-dom) are installed.
+3. Create a `.env` file in the frontend folder with:
+    ```
+    VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
+    ```
+4. Add the Razorpay SDK to `frontend/public/index.html`:
+    ```html
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    ```
+5. Start the frontend development server:
+    ```sh
+    npm run dev
+    ```
 
-npm install express mongoose dotenv jsonwebtoken bcryptjs razorpay pdf-lib
+### Database Setup
 
-Create a .env file in the backend folder with:
+- Set up a MongoDB database (local or MongoDB Atlas).
+- Update `MONGO_URI` in the backend `.env` file with your connection string.
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-PORT=5000
+---
 
-Start the backend server:
-bash
+## Running the Application
 
-node server.js
+- **Start the backend:**
+    ```sh
+    cd backend && node server.js
+    ```
+    Runs at [http://localhost:5000](http://localhost:5000).
 
-Frontend Setup
-Navigate to the frontend folder:
-bash
+- **Start the frontend:**
+    ```sh
+    cd frontend && npm run dev
+    ```
+    Runs at [http://localhost:5173](http://localhost:5173) (default Vite port).
 
-cd frontend
+- Access the app at [http://localhost:5173](http://localhost:5173) in your browser.
 
-Install dependencies:
-bash
+---
 
-npm install
+## Planned Features
 
-Note: Vite includes react, react-dom, and @vitejs/plugin-react. Additional dependencies (axios, react-router-dom) are installed.
+- **Authentication:** JWT-based user registration and login for buyers, sellers, and admins.
+- **Note Viewing:**
+    - Free first view of notes.
+    - Advertisement-based subsequent views.
+    - Payment required for downloading notes.
+- **Payments:** Secure note purchases via Razorpay.
+- **Exclusive Content:** Access to toppers’ short tricks and guides for paid buyers.
+- **Reselling Protection:** Watermarking notes and Terms of Service to prevent unauthorized reselling.
 
-Create a .env file in the frontend folder with:
+---
 
-VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
+## Notes
 
-Add the Razorpay SDK to frontend/public/index.html:
-html
+- **Current State:** The project is set up with basic structure and dependencies. Functionality like note viewing, payments, and ads will be implemented next.
+- **Environment Variables:** Ensure `.env` files are configured correctly for MongoDB and Razorpay.
+- **Styling:** Consider adding Tailwind CSS or another framework for a polished UI.
 
-<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+---
 
-Start the frontend development server:
-bash
+## Contributing
 
-npm run dev
-
-Database Setup
-Set up a MongoDB database (local or MongoDB Atlas).
-
-Update MONGO_URI in the backend .env file with your connection string.
-
-Running the Application
-Start the backend:
-bash
-
-cd backend && node server.js
-
-Runs at http://localhost:5000.
-
-Start the frontend:
-bash
-
-cd frontend && npm run dev
-
-Runs at http://localhost:5173 (default Vite port).
-
-Access the app at http://localhost:5173 in your browser.
-
-Planned Features
-Authentication: JWT-based user registration and login for buyers, sellers, and admins.
-
-Note Viewing:
-Free first view of notes.
-
-Advertisement-based subsequent views.
-
-Payment required for downloading notes.
-
-Payments: Secure note purchases via Razorpay.
-
-Exclusive Content: Access to toppers’ short tricks and guides for paid buyers.
-
-Reselling Protection: Watermarking notes and Terms of Service to prevent unauthorized reselling.
-
-Notes
-Current State: The project is set up with basic structure and dependencies. Functionality like note viewing, payments, and ads will be implemented next.
-
-Environment Variables: Ensure .env files are configured correctly for MongoDB and Razorpay.
-
-Styling: Consider adding Tailwind CSS or another framework for a polished UI.
-
-Contributing
 Contributions are welcome! Please open an issue to discuss proposed changes.
-License
-This project is licensed under the MIT License.
 
+---
+
+## License
+
+This project is licensed under the MIT License.
