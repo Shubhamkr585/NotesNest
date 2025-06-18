@@ -1,17 +1,22 @@
-import { useState } from 'react'
 
-import './App.css'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home.jsx';
+import Register from './components/Register.jsx';
+import Login from './components/Login.jsx';
+import Dashboard from './components/Dashboard.jsx'; // Placeholder for future
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-     <div className="bg-yellow-100 min-h-screen flex items-center justify-center">
-     <h2 className='text-5xl'>Red</h2>
-      </div>
-    </>
-  )
-}
+    <div className="flex flex-col min-h-screen">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </div>
+  );
+};
 
-export default App
+export default App;
