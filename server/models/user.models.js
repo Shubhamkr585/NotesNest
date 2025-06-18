@@ -38,6 +38,9 @@ const userSchema = new Schema(
       type: String, // Cloudinary URL
       default: 'https://res.cloudinary.com/your_cloud_name/image/upload/v1/default-avatar.png', // Replace with your default
     },
+    avatarPublicId: {
+      type: String, // Public ID for Cloudinary
+    },
     role: {
       type: String,
       enum: ['buyer', 'seller', 'admin'],
@@ -77,7 +80,7 @@ userSchema.pre('save', async function (next) {
 });
 
 // Check password match
-userSchema.methods.isPasswordMatched = async function (password) {
+userSchema.methods.isPasswordCorrect = async function (password) {
   try {
     return await bcrypt.compare(password, this.password);
   } catch (error) {
@@ -96,7 +99,7 @@ userSchema.methods.generateAccessToken = function () {
         fullName: this.fullName,
         role: this.role,
       },
-      process.env.JWT_SECRET,
+      process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: process.env.ACCESS_TOKEN_EXPIRY || '15m' }
     );
   } catch (error) {
@@ -109,7 +112,7 @@ userSchema.methods.generateRefreshToken = function () {
   try {
     return jwt.sign(
       { _id: this._id },
-      process.env.JWT_SECRET,
+      process.env.REFRESH_TOKEN_SECRET,
       { expiresIn: process.env.REFRESH_TOKEN_EXPIRY || '7d' }
     );
   } catch (error) {
