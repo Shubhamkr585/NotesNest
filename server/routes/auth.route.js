@@ -10,7 +10,7 @@ import {
   updateUserAvatar,
 } from '../controllers/authController.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
-import { upload } from '../middleware/multer.js';
+import { upload } from '../middleware/multer.middlewares.js';
 import authMiddleware from '../middleware/authMiddleware.js';
 
 const router = express.Router();

@@ -9,7 +9,10 @@ import routes from "./routes/index.js";
 const PORT = process.env.PORT || 5050;
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:5173', // Replace with your frontend URL
+  credentials: true
+}));
 app.use(express.json());
 
 // Connect to MongoDB

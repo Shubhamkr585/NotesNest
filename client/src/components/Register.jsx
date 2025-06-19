@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import { register } from '../services/api';
+
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -45,9 +46,9 @@ const Register = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100">
-      <div className="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md transform transition-all hover:scale-105">
-        <h2 className="text-3xl font-extrabold text-center text-gray-800 mb-6">Create Your Account</h2>
-        {error && <p className="text-red-500 text-center mb-4">{error}</p>}
+      <div className="bg-white p-5 rounded-xl shadow-2xl w-full max-w-100 ">
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">Create Your Account</h2>
+        {error && <p className="text-red-500 text-center mb-2">{error}</p>}
         <form onSubmit={handleSubmit} encType="multipart/form-data" className="space-y-4">
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">
@@ -59,7 +60,7 @@ const Register = () => {
               id="fullName"
               value={formData.fullName}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="mt-1 w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
               required
             />
           </div>
@@ -73,7 +74,7 @@ const Register = () => {
               id="userName"
               value={formData.userName}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="mt-1 w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
               required
             />
           </div>
@@ -87,7 +88,7 @@ const Register = () => {
               id="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="mt-1 w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
               required
             />
           </div>
@@ -101,7 +102,7 @@ const Register = () => {
               id="password"
               value={formData.password}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="mt-1 w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
               required
             />
           </div>
@@ -115,8 +116,9 @@ const Register = () => {
               id="avatar"
               accept="image/*"
               onChange={handleChange}
-              className="mt-1 w-full p-3 border border-gray-300 rounded-lg text-gray-600"
+              className="mt-1 w-full p-2 border border-gray-300 rounded-lg text-gray-600"
               required
+      
             />
           </div>
           <button
@@ -127,11 +129,11 @@ const Register = () => {
             {loading ? 'Registering...' : 'Register'}
           </button>
         </form>
-        <p className="mt-6 text-center text-gray-600">
+        <p className="mt-2 text-center text-gray-600">
           Already have an account?{' '}
-          <a href="/login" className="text-blue-600 hover:underline font-medium">
+          <Link to="/login" className="text-blue-600 hover:underline font-medium">
             Log in
-          </a>
+          </Link>
         </p>
       </div>
     </div>

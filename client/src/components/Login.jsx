@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { login } from '../services/api';
 
 const Login = () => {
@@ -29,7 +29,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100">
-      <div className="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md transform transition-all hover:scale-105">
+      <div className="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md">
         <h2 className="text-3xl font-extrabold text-center text-gray-800 mb-6">Log In</h2>
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -69,11 +69,11 @@ const Login = () => {
             {loading ? 'Logging in...' : 'Log In'}
           </button>
         </form>
-        <p className="mt-6 text-center text-gray-600">
+        <p className="mt-2 text-center text-gray-600">
           Don’t have an account?{' '}
-          <a href="/register" className="text-blue-600 hover:underline font-medium">
-            Register
-          </a>
+         
+          <Link to="/register" className='hover:underline text-blue-700 font-medium'>Register</Link>  
+      
         </p>
       </div>
     </div>
@@ -81,3 +81,5 @@ const Login = () => {
 };
 
 export default Login;
+
+

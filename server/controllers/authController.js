@@ -21,8 +21,9 @@ const generateAccessTokenAndRefreshToken = async (userId) => {
 };
 
 const registerUser = asyncHandler(async (req, res) => {
+  console.log("yeah interacting with the client")
   let avatarUpload = null;
-  const avatarLocalPath = req.files?.avatar?.[0]?.path;
+ const avatarLocalPath = req.file?.path ;
 
   try {
     const { fullName, email, password, userName } = req.body;
