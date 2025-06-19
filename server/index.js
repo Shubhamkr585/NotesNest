@@ -6,8 +6,14 @@ dotenv.config();
 import  connectDB  from "./db/connection.js";
 import routes from "./routes/index.js";
 
+
 const PORT = process.env.PORT || 5050;
 const app = express();
+
+import cookieParser from 'cookie-parser';
+
+app.use(cookieParser());
+
 
 app.use(cors({
   origin: 'http://localhost:5173', // Replace with your frontend URL
