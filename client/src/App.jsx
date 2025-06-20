@@ -10,7 +10,7 @@ import ProtectedRoute from './components/ProtectedRoute.jsx';
 const App = () => {
   return (
     <Routes>
-      {/* Public routes (NO layout) */}
+    {/*PublicRoutes*/}
       <Route element={<PublicRoute />}>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

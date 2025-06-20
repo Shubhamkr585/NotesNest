@@ -104,6 +104,7 @@ export const logout = async () => {
 export const getCurrentUser = async () => await api.get('/auth/current-user');
 
 export const changePassword = async (data) => api.post('/auth/change-password', data);
+
 export const updateAccountDetails = async (data) => api.patch('/auth/update-account', data);
 export const updateAvatar = async (data) =>
   api.patch('/auth/update-avatar', data, {
