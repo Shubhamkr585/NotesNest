@@ -1,28 +1,13 @@
-import React, { useState, useEffect } from 'react';
+// src/components/Login.jsx
+import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { login, getCurrentUser } from '../services/api';
+import { login } from '../services/api';
 
 const Login = () => {
   const [formData, setFormData] = useState({ email_username: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const checkAuth = async () => {
-      try {
-        // Skip if no refreshToken (indicates logged out)
-        if (!document.cookie.includes('refreshToken')) {
-          return;
-        }
-        await getCurrentUser();
-        navigate('/dashboard', { replace: true });
-      } catch (err) {
-        // Stay on login page
-      }
-    };
-    checkAuth();
-  }, [navigate]);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -35,7 +20,11 @@ const Login = () => {
 
     try {
       console.log('Logging in with:', formData);
-      await login({ email: formData.email_username, userName: formData.email_username, password: formData.password });
+      await login({
+        email: formData.email_username,
+        userName: formData.email_username,
+        password: formData.password,
+      });
       navigate('/dashboard', { replace: true });
     } catch (err) {
       setError(err.message || 'Login failed');
@@ -81,8 +70,8 @@ const Login = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 disabled:bg-gray-400 transition duration-300"
-          >
+            className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 disabled:bg-gray-400 transition duration-300"
+            >
             {loading ? 'Logging in...' : 'Log In'}
           </button>
         </form>

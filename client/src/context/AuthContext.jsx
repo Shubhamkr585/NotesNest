@@ -1,42 +1,58 @@
-// src/context/AuthContext.jsx
+// File: src/context/AuthContext.jsx
 import React, { createContext, useState, useEffect } from 'react';
-import { getCurrentUser } from '../services/api';
+import { getCurrentUser, logout as apiLogout } from '../services/api';
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(null);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  const checkAuth = async () => {
+    if (!document.cookie.includes('refreshToken')) {
+      setIsAuthenticated(false);
+      setUser(null);
+      setLoading(false);
+      return false;
+    }
+    try {
+      const res = await getCurrentUser();
+      setIsAuthenticated(true);
+      setUser(res.data);
+      return true;
+    } catch (err) {
+      setIsAuthenticated(false);
+      setUser(null);
+      return false;
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    const checkAuth = async () => {
-      if (!document.cookie.includes('refreshToken')) {
-        setIsAuthenticated(false);
-        return;
-      }
-      try {
-        await getCurrentUser();
-        setIsAuthenticated(true);
-      } catch (err) {
-        console.log('Auth check failed:', err.message);
-        setIsAuthenticated(false);
-      }
-    };
     checkAuth();
   }, []);
 
-  const login = () => {
-    // Assume login sets refreshToken cookie; update state
+  const login = (response) => {
     setIsAuthenticated(true);
+    setUser(response.user);
+    setLoading(false);
   };
 
-  const logout = () => {
-    // Clear refreshToken cookie
-    document.cookie = 'refreshToken=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';
-    setIsAuthenticated(false);
+  const logout = async () => {
+    try {
+      await apiLogout();
+      setIsAuthenticated(false);
+      setUser(null);
+      setLoading(false);
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   return (
-    <AuthContext.Provider value={{ isAuthenticated, login, logout }}>
+    <AuthContext.Provider value={{ isAuthenticated, user, login, logout, loading, checkAuth }}>
       {children}
     </AuthContext.Provider>
   );

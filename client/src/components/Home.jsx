@@ -1,9 +1,10 @@
+// src/components/Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-200 to-purple-200 flex flex-col items-center justify-center text-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-200 to-purple-600 flex flex-col items-center justify-center text-center px-4">
       <h1 className="text-5xl font-extrabold text-gray-800 mb-6 sm:text-6xl">
         Welcome to Notes Selling Platform
       </h1>

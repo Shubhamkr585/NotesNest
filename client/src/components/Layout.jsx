@@ -1,16 +1,23 @@
-import React from 'react';
+// src/components/Layout.jsx
 import { Outlet } from 'react-router-dom';
-import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx';
 
 const Layout = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-grow">
+    <div>
+      <nav className="bg-gray-800 text-white p-4">
+        <ul className="flex space-x-4">
+          <li><a href="/" className="hover:underline">Home</a></li>
+          <li><a href="/dashboard" className="hover:underline">Dashboard</a></li>
+          <li><a href="/login" className="hover:underline">Login</a></li>
+          <li><a href="/register" className="hover:underline">Register</a></li>
+        </ul>
+      </nav>
+      <main className="p-4">
         <Outlet />
       </main>
-      <Footer />
+      <footer className="bg-gray-800 text-white p-4 text-center">
+        © 2025 Notes Selling Platform
+      </footer>
     </div>
   );
 };

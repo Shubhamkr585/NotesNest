@@ -1,9 +1,9 @@
-// src/components/ProtectedRoute.jsx
+// src/components/PublicRoute.jsx
 import { useEffect, useState } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 import { getCurrentUser } from '../services/api';
 
-const ProtectedRoute = () => {
+const PublicRoute = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -22,7 +22,7 @@ const ProtectedRoute = () => {
   }, []);
 
   if (loading) return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
-  return isAuthenticated ? <Outlet /> : <Navigate to="/login" replace />;
+  return isAuthenticated ? <Navigate to="/dashboard" replace /> : <Outlet />;
 };
 
-export default ProtectedRoute;
+export default PublicRoute;
