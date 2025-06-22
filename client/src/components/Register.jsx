@@ -1,6 +1,5 @@
-// src/components/Register.jsx
-import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { register } from '../services/api';
 
 const Register = () => {
@@ -9,40 +8,23 @@ const Register = () => {
     email: '',
     userName: '',
     password: '',
-    role: 'buyer',
-    avatar: '',
+    role: 'primary',
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    const { name, value, files } = e.target;
-    if (name === 'avatar') {
-      setFormData({ ...formData, avatar: files[0] });
-    } else {
-      setFormData({ ...formData, [name]: value });
-    }
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     setLoading(true);
-
-    const form = new FormData();
-    form.append('fullName', formData.fullName);
-    form.append('email', formData.email);
-    form.append('userName', formData.userName);
-    form.append('password', formData.password);
-    form.append('role', formData.role);
-    if (formData.avatar) {
-      form.append('avatar', formData.avatar);
-    }
-
     try {
-      await register(form);
-      navigate('/login', { replace: true });
+      await register(formData);
+      navigate('/login');
     } catch (err) {
       setError(err.message || 'Registration failed');
     } finally {
@@ -52,10 +34,10 @@ const Register = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100">
-      <div className="bg-white p-8 rounded-xl shadow-2xl w-full max-w-md">
+      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-md w-full max-w-md">
         <h2 className="text-3xl font-extrabold text-center text-gray-800 mb-6">Register</h2>
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="space-y-4">
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">Full Name</label>
             <input
@@ -64,7 +46,7 @@ const Register = () => {
               id="fullName"
               value={formData.fullName}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
+              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -76,7 +58,7 @@ const Register = () => {
               id="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
+              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -88,7 +70,7 @@ const Register = () => {
               id="userName"
               value={formData.userName}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
+              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -100,7 +82,7 @@ const Register = () => {
               id="password"
               value={formData.password}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
+              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -111,39 +93,24 @@ const Register = () => {
               id="role"
               value={formData.role}
               onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
-              required
+              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
             >
-              <option value="buyer">Buyer</option>
+              <option value="primary">Buyer</option>
               <option value="seller">Seller</option>
             </select>
-          </div>
-          <div>
-            <label htmlFor="avatar" className="block text-sm font-medium text-gray-700">Avatar</label>
-            <input
-              type="file"
-              name="avatar"
-              id="avatar"
-              onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
-              required
-            />
           </div>
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 disabled:bg-gray-400"
+            className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400"
           >
             {loading ? 'Registering...' : 'Register'}
           </button>
-        </form>
-        <p className="mt-6 text-center text-gray-600">
-          Already have an account?{' '}
-          <Link to="/login" className="text-blue-600 hover:underline font-medium">
-            Log In
-          </Link>
+        </div>
+        <p className="mt-4 text-center text-gray-600">
+          Already have an account? <Link to="/login" className="text-blue-600 hover:underline">Log In</Link>
         </p>
-      </div>
+      </form>
     </div>
   );
 };

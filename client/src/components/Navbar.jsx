@@ -4,6 +4,7 @@ import { getCurrentUser, logout } from '../services/api';
 
 const Navbar = () => {
   const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -13,10 +14,12 @@ const Navbar = () => {
         setUser(userData);
       } catch {
         setUser(null);
+      } finally {
+        setLoading(false);
       }
     };
     fetchUser();
-  }, []);
+  }, [navigate]);
 
   const handleLogout = async () => {
     try {
@@ -29,13 +32,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-600 text-white p-4 shadow-md">
+    <nav className="bg-gray-800 text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold">
           Notes Platform
         </Link>
         <div className="space-x-4">
-          {user ? (
+          {loading ? null : user ? (
             <>
               <Link to="/dashboard" className="hover:underline">
                 Dashboard
