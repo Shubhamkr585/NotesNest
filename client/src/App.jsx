@@ -11,6 +11,9 @@ import Layout from './components/Layout.jsx';
 import PublicRoute from './components/PublicRoute.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
+import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
+import AllNotes from './components/AllNotes';
 
 const App = () => {
   return (
@@ -22,11 +25,15 @@ const App = () => {
             <Route path="/register" element={<Register />} />
           </Route>
           <Route element={<Layout />}>
+           <Route path="/about" element={<About />}/>
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<div>Privacy Policy</div>}/>
             <Route path="/" element={<Home />} />
-            <Route path="/notes" element={<NotesList />} />
             <Route path="/notes/:noteId" element={<ViewNote />} />
             <Route path="/profile/:username" element={<PublicProfile />} />
+      
             <Route element={<ProtectedRoute />}>
+            <Route path="/notes" element={<AllNotes />} />
               <Route path="/upload" element={<UploadNote />} />
               <Route path="/purchased-notes" element={<PurchasedNotes />} />
             </Route>

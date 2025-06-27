@@ -1,17 +1,27 @@
-import React from 'react'
+import { motion } from 'framer-motion';
 
-function About() {
+export default function About() {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4'>
-        <h2 className='text-2xl'>About us</h2>
-        <p className='text-lg mt-4 max-w-2xl text-center'>
-            This is a platform built for all the students who are preparing for competitive exams like UPSC and JEE.
-             The aim of the platform is to let student get the notes of ones who have already aces these exams.
-             The toppers of these exams would also share important tricks that they have used .
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-[#0f0f1f] to-black px-6 py-12">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="max-w-3xl text-center text-white space-y-6"
+      >
+        <h1 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-400">
+          Welcome to NotesNest 🪶
+        </h1>
+        <p className="text-lg md:text-xl leading-relaxed text-gray-300">
+          NotesNest is your intelligent companion for organizing and securing your thoughts.
+          Whether you're jotting down ideas or creating long-term plans, our intuitive interface
+          ensures a seamless and delightful note-taking experience.
         </p>
-
+        <p className="text-lg md:text-xl leading-relaxed text-gray-300">
+          With support for avatars, token-based authentication, and smooth UI transitions,
+          NotesNest redefines how modern note apps should feel — fast, reliable, and elegant.
+        </p>
+      </motion.div>
     </div>
-  )
+  );
 }
-
-export default About

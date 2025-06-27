@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createNote } from '../services/api';
+import { motion } from 'framer-motion';
 
 const UploadNote = () => {
   const [formData, setFormData] = useState({
@@ -10,6 +11,7 @@ const UploadNote = () => {
     price: '',
     isFeatured: false,
     file: null,
+    cover: null,
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -31,7 +33,7 @@ const UploadNote = () => {
     Object.keys(formData).forEach((key) => data.append(key, formData[key]));
     try {
       await createNote(data);
-      navigate(`/profile/${formData.userName || 'me'}`);
+      navigate(`/profile/me`);
     } catch (err) {
       setError(err.message || 'Upload failed');
     } finally {
@@ -40,92 +42,56 @@ const UploadNote = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100">
-      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-md w-full max-w-md">
-        <h2 className="text-3xl font-extrabold text-center text-gray-800 mb-6">Upload Note</h2>
-        {error && <p className="text-red-500 text-center mb-4">{error}</p>}
-        <div className="space-y-4">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center p-6">
+      <motion.form
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        onSubmit={handleSubmit}
+        className="bg-gray-800 text-white p-8 rounded-2xl shadow-2xl w-full max-w-2xl"
+      >
+        <h2 className="text-3xl font-bold text-center text-white mb-6">Upload Your Note</h2>
+        {error && <p className="text-red-400 text-center mb-4">{error}</p>}
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="title" className="block text-sm font-medium text-gray-700">Title</label>
-            <input
-              type="text"
-              name="title"
-              id="title"
-              value={formData.title}
-              onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-              required
-            />
+            <label htmlFor="title" className="block text-sm font-medium text-gray-300">Title</label>
+            <input type="text" name="title" id="title" value={formData.title} onChange={handleChange} required className="mt-1 w-full p-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500" />
           </div>
           <div>
-            <label htmlFor="description" className="block text-sm font-medium text-gray-700">Description</label>
-            <textarea
-              name="description"
-              id="description"
-              value={formData.description}
-              onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
-          <div>
-            <label htmlFor="category" className="block text-sm font-medium text-gray-700">Category</label>
-            <select
-              name="category"
-              id="category"
-              value={formData.category}
-              onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-            >
+            <label htmlFor="category" className="block text-sm font-medium text-gray-300">Category</label>
+            <select name="category" id="category" value={formData.category} onChange={handleChange} className="mt-1 w-full p-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500">
               <option value="JEE">JEE</option>
               <option value="UPSC">UPSC</option>
+              <option value="NEET">NEET</option>
             </select>
           </div>
-          <div>
-            <label htmlFor="price" className="block text-sm font-medium text-gray-700">Price</label>
-            <input
-              type="number"
-              name="price"
-              id="price"
-              value={formData.price}
-              onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-              min="0"
-            />
+          <div className="sm:col-span-2">
+            <label htmlFor="description" className="block text-sm font-medium text-gray-300">Description</label>
+            <textarea name="description" id="description" value={formData.description} onChange={handleChange} rows={3} className="mt-1 w-full p-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500" />
           </div>
           <div>
-            <label htmlFor="isFeatured" className="flex items-center text-sm font-medium text-gray-700">
-              <input
-                type="checkbox"
-                name="isFeatured"
-                id="isFeatured"
-                checked={formData.isFeatured}
-                onChange={handleChange}
-                className="mr-2"
-              />
-              Feature on Homepage
-            </label>
+            <label htmlFor="price" className="block text-sm font-medium text-gray-300">Price (₹)</label>
+            <input type="number" name="price" id="price" value={formData.price} onChange={handleChange} min="0" className="mt-1 w-full p-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500" />
           </div>
-          <div>
-            <label htmlFor="file" className="block text-sm font-medium text-gray-700">Note File</label>
-            <input
-              type="file"
-              name="file"
-              id="file"
-              onChange={handleChange}
-              className="mt-1 w-full p-3 border rounded-lg"
-              accept=".pdf"
-              required
-            />
+          <div className="flex items-center space-x-2 mt-2">
+            <input type="checkbox" name="isFeatured" id="isFeatured" checked={formData.isFeatured} onChange={handleChange} className="h-4 w-4 text-purple-600" />
+            <label htmlFor="isFeatured" className="text-sm font-medium text-gray-300">Feature on Homepage</label>
           </div>
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400"
-          >
-            {loading ? 'Uploading...' : 'Upload Note'}
-          </button>
+          <div className="sm:col-span-2">
+            <label htmlFor="file" className="block text-sm font-medium text-gray-300">Upload PDF File</label>
+            <input type="file" name="file" id="file" accept=".pdf" onChange={handleChange} required className="mt-1 w-full p-3 bg-gray-700 border border-gray-600 rounded-lg text-white" />
+          </div>
+          <div className="sm:col-span-2">
+            <label htmlFor="cover" className="block text-sm font-medium text-gray-300">Upload Cover Image</label>
+            <input type="file" name="cover" id="cover" accept="image/*" onChange={handleChange} className="mt-1 w-full p-3 bg-gray-700 border border-gray-600 rounded-lg text-white" />
+          </div>
         </div>
-      </form>
+
+        <button type="submit" disabled={loading} className="w-full mt-6 py-3 px-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition">
+          {loading ? 'Uploading...' : 'Upload Note'}
+        </button>
+      </motion.form>
     </div>
   );
 };

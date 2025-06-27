@@ -1,8 +1,15 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getUserByUsername, getUploadedNotes, getCurrentUser, updateAccountDetails, updateAvatar } from '../services/api';
+import {
+  getUserByUsername,
+  getUploadedNotes,
+  getCurrentUser,
+  updateAccountDetails,
+  updateAvatar,
+} from '../services/api';
 import NotesList from './NotesList.jsx';
 import PurchasedNotes from './PurchasedNotes.jsx';
+import { motion } from 'framer-motion';
 
 const PublicProfile = () => {
   const { username } = useParams();
@@ -25,7 +32,12 @@ const PublicProfile = () => {
           getCurrentUser().catch(() => null),
         ]);
         setProfileUser(userResponse.data);
-        setNotes(notesResponse.data.map(note => ({ ...note, authorUsername: userResponse.data.userName })));
+        setNotes(
+          notesResponse.data.map((note) => ({
+            ...note,
+            authorUsername: userResponse.data.userName,
+          }))
+        );
         setCurrentUser(currentUserResponse?.data || null);
         if (currentUserResponse?.data?.userName === username) {
           setFormData({
@@ -43,13 +55,9 @@ const PublicProfile = () => {
     fetchData();
   }, [username]);
 
-  const handleEditChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  const handleEditChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleAvatarChange = (e) => {
-    setAvatar(e.target.files[0]);
-  };
+  const handleAvatarChange = (e) => setAvatar(e.target.files[0]);
 
   const handleEditSubmit = async (e) => {
     e.preventDefault();
@@ -73,72 +81,65 @@ const PublicProfile = () => {
     }
   };
 
-  if (loading) return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
-  if (error) return <div className="min-h-screen flex items-center justify-center text-red-500">{error}</div>;
+  if (loading)
+    return <div className="min-h-screen flex items-center justify-center text-white">Loading...</div>;
+
+  if (error)
+    return (
+      <div className="min-h-screen flex items-center justify-center text-red-500 text-center">
+        {error}
+      </div>
+    );
 
   const isOwnProfile = currentUser && currentUser.userName === profileUser.userName;
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-purple-100 p-8">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-center text-gray-800 mb-6">
-          {profileUser.fullName} (@{profileUser.userName})
-        </h2>
-        <div className="bg-white p-6 rounded-xl shadow-md mb-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white p-6">
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="max-w-5xl mx-auto"
+      >
+        <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
+          <h2 className="text-3xl font-bold text-center text-white mb-6">
+            {profileUser.fullName} (@{profileUser.userName})
+          </h2>
+
           {isOwnProfile && editMode ? (
             <form onSubmit={handleEditSubmit} className="space-y-4">
+              {['fullName', 'email', 'userName'].map((field) => (
+                <div key={field}>
+                  <label htmlFor={field} className="block text-sm font-medium text-gray-300 capitalize">
+                    {field.replace('userName', 'Username')}
+                  </label>
+                  <input
+                    type={field === 'email' ? 'email' : 'text'}
+                    name={field}
+                    id={field}
+                    value={formData[field]}
+                    onChange={handleEditChange}
+                    className="mt-1 w-full p-3 bg-gray-700 text-white border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500"
+                    required
+                  />
+                </div>
+              ))}
               <div>
-                <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">Full Name</label>
-                <input
-                  type="text"
-                  name="fullName"
-                  id="fullName"
-                  value={formData.fullName}
-                  onChange={handleEditChange}
-                  className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  value={formData.email}
-                  onChange={handleEditChange}
-                  className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="userName" className="block text-sm font-medium text-gray-700">Username</label>
-                <input
-                  type="text"
-                  name="userName"
-                  id="userName"
-                  value={formData.userName}
-                  onChange={handleEditChange}
-                  className="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="avatar" className="block text-sm font-medium text-gray-700">Update Avatar</label>
+                <label htmlFor="avatar" className="block text-sm font-medium text-gray-300">
+                  Update Avatar
+                </label>
                 <input
                   type="file"
-                  name="avatar"
                   id="avatar"
                   onChange={handleAvatarChange}
-                  className="mt-1 w-full p-3 border rounded-lg"
+                  className="mt-1 w-full p-3 bg-gray-700 text-white border border-gray-600 rounded-lg"
                   accept="image/*"
                 />
               </div>
-              <div className="flex space-x-4">
+              <div className="flex gap-4">
                 <button
                   type="submit"
-                  disabled={loading}
-                  className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400"
+                  className="w-full py-3 px-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
                 >
                   {loading ? 'Saving...' : 'Save Changes'}
                 </button>
@@ -156,17 +157,17 @@ const PublicProfile = () => {
               {profileUser.avatar && (
                 <img
                   src={profileUser.avatar}
-                  alt={`${profileUser.fullName}'s avatar`}
-                  className="w-24 h-24 rounded-full mx-auto object-cover mb-4"
+                  alt="avatar"
+                  className="w-24 h-24 rounded-full mx-auto object-cover border-4 border-purple-600 shadow-lg"
                 />
               )}
               <h3 className="text-xl font-bold">{profileUser.fullName}</h3>
-              <p className="text-gray-600">Username: {profileUser.userName}</p>
-              <p className="text-gray-600">Role: {profileUser.role}</p>
+              <p className="text-purple-400">Username: {profileUser.userName}</p>
+              <p className="text-purple-400">Role: {profileUser.role}</p>
               {isOwnProfile && (
                 <button
                   onClick={() => setEditMode(true)}
-                  className="py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                  className="mt-2 py-2 px-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
                 >
                   Edit Profile
                 </button>
@@ -174,15 +175,19 @@ const PublicProfile = () => {
             </div>
           )}
         </div>
-        <h3 className="text-2xl font-bold text-center text-gray-800 mb-4">Uploaded Notes</h3>
-        <NotesList notes={notes} />
+
+        <div className="mt-10">
+          <h3 className="text-2xl font-bold text-center mb-4 text-white">Uploaded Notes</h3>
+          <NotesList notes={notes} />
+        </div>
+
         {isOwnProfile && (
-          <>
-            <h3 className="text-2xl font-bold text-center text-gray-800 mb-4 mt-8">Your Purchased Notes</h3>
+          <div className="mt-10">
+            <h3 className="text-2xl font-bold text-center mb-4 text-white">Your Purchased Notes</h3>
             <PurchasedNotes />
-          </>
+          </div>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };

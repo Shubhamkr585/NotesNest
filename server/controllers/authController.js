@@ -29,10 +29,13 @@ const registerUser = asyncHandler(async (req, res) => {
     password,
     role: role || 'primary',
   });
+  console.log('User role saved:', user.role);
+
   const createdUser = await User.findById(user._id).select('-password -refreshToken');
   if (!createdUser) {
     throw new ApiError(500, 'Failed to register user');
   }
+  // console.log('User role saved:', createdUser.role);
   return res.status(201).json(new ApiResponse(201, createdUser, 'User registered successfully'));
 });
 

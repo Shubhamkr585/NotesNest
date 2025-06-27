@@ -6,6 +6,7 @@ const noteSchema = new mongoose.Schema({
   category: { type: String, enum: ['JEE', 'UPSC'], required: true },
   price: { type: Number, default: 0 },
   fileUrl: { type: String, required: true },
+  coverImageUrl: { type: String }, // ✅ NEW FIELD for image URL
   uploadedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   isFeatured: { type: Boolean, default: false },
   createdAt: { type: Date, default: Date.now },

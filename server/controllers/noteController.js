@@ -8,19 +8,30 @@ import { uploadOnCloudinary } from '../utils/cloudinary.js';
 const createNote = asyncHandler(async (req, res) => {
   if (req.user.role !== 'seller') throw new ApiError(403, 'Only sellers can upload notes');
   const { title, description, category, price, isFeatured } = req.body;
-  const file = req.files?.file[0]?.path;
+  const file = req.files?.file?.[0]?.path;
+  const cover = req.files?.cover?.[0]?.path;
+
   if (!title || !category || !file) throw new ApiError(400, 'Title, category, and file are required');
+
   const fileUpload = await uploadOnCloudinary(file);
   if (!fileUpload) throw new ApiError(500, 'File upload failed');
+
+  let coverUpload = null;
+  if (cover) {
+    coverUpload = await uploadOnCloudinary(cover);
+  }
+
   const note = await Note.create({
     title,
     description,
     category,
     price: parseFloat(price) || 0,
     fileUrl: fileUpload.url,
+    coverImageUrl: coverUpload?.url,
     uploadedBy: req.user._id,
     isFeatured: isFeatured === 'true',
   });
+
   return res.status(201).json(new ApiResponse(201, note, 'Note created successfully'));
 });
 
