@@ -8,7 +8,7 @@ function Contact() {
             If you have any questions or suggestions, feel free to reach out to us at <a href="mailto:jFk0f@example.com" className='text-blue-600 hover:underline'>jFk0f@example.com</a>.
             <br />
             You can also follow us on our social media channels for updates and announcements.
-            
+            Our team is working hard to improve the app and we appreciate your feedback!
         </p>
     </div>
   )
