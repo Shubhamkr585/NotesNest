@@ -8,10 +8,15 @@ const userSchema = new mongoose.Schema({
   userName: { type: String, required: true, unique: true, lowercase: true },
   password: { type: String, required: true, minlength: 6 },
   role: { type: String, enum: ['primary', 'seller'], default: 'primary' },
-  avatar: { type: String },
+  avatar: {
+    type: String,
+    validate: {
+      validator: (v) => /^https?:\/\/.+\..+/.test(v),
+      message: (props) => `${props.value} is not a valid URL`,
+    },
+  },
   refreshToken: { type: String },
-  createdAt: { type: Date, default: Date.now },
-});
+}, { timestamps: true });
 
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
@@ -33,7 +38,7 @@ userSchema.methods.generateAccessToken = function () {
 
 userSchema.methods.generateRefreshToken = function () {
   return jwt.sign(
-    { _id: this._id },
+    { _id: this._id, email: this.email, userName: this.userName },
     process.env.REFRESH_TOKEN_SECRET,
     { expiresIn: '7d' }
   );
