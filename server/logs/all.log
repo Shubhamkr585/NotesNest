@@ -1103,3 +1103,21 @@
 2025-09-26 22:15:37:1537 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 112.737 ms[39m
 2025-09-26 22:18:32:1832 [35mhttp[39m: [35mPOST /api/v1/orders 200 607 - 1741.063 ms[39m
 2025-09-26 22:26:45:2645 [35mhttp[39m: [35mPOST /api/v1/auth/logout 200 84 - 178.356 ms[39m
+2025-09-26 22:36:04:364 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:36:04:364 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1195 - 17.979 ms[39m
+2025-09-26 22:36:04:364 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:36:04:364 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1195 - 4.942 ms[39m
+2025-09-26 22:36:05:365 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 135.757 ms[39m
+2025-09-26 22:36:05:365 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 113.124 ms[39m
+2025-09-26 22:36:14:3614 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 424 - 443.904 ms[39m
+2025-09-26 22:36:14:3614 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 413 - 59.260 ms[39m
+2025-09-26 22:36:14:3614 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 114.882 ms[39m
+2025-09-26 22:36:15:3615 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.539 ms[39m
+2025-09-26 22:37:00:370 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 110.703 ms[39m
+2025-09-26 22:37:00:370 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 105.941 ms[39m
+2025-09-26 22:37:02:372 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 165.388 ms[39m
+2025-09-26 22:37:02:372 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 164.655 ms[39m
+2025-09-26 22:37:03:373 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 53.491 ms[39m
+2025-09-26 22:37:03:373 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 1722 - 89.189 ms[39m
+2025-09-26 22:37:03:373 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 52.029 ms[39m
+2025-09-26 22:37:03:373 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 91.875 ms[39m
