@@ -1,9 +1,17 @@
-import express from 'express';
-import { viewNote } from '../controllers/viewController.js';
+import { Router } from 'express';
+import {
+  createOrder,
+  verifyPayment,
+  getPurchasedNotes,
+} from '../controllers/orderController.js';
 import authMiddleware from '../middlewares/auth.middleware.js';
 
-const router = express.Router();
+const router = Router();
 
-router.get('/:noteId', authMiddleware, viewNote);
+router.use(authMiddleware);
+
+router.post('/', createOrder);
+router.post('/verify', verifyPayment); 
+router.get('/purchased', getPurchasedNotes);
 
 export default router;

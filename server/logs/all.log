@@ -1,0 +1,1105 @@
+2025-08-24 03:39:05:395 [35mhttp[39m: [35mGET / 404 139 - 8.345 ms[39m
+2025-08-24 03:42:04:424 [35mhttp[39m: [35mGET / 404 139 - 10.340 ms[39m
+2025-08-24 03:52:23:5223 [35mhttp[39m: [35mGET /api/maje 200 36 - 4.477 ms[39m
+2025-08-24 03:53:00:530 [35mhttp[39m: [35mGET /api/maje 200 36 - 3.718 ms[39m
+2025-08-24 05:00:38:038 [35mhttp[39m: [35mGET /api/maje 200 36 - 38.465 ms[39m
+2025-08-24 05:00:56:056 [35mhttp[39m: [35mGET /api/login 404 148 - 16.711 ms[39m
+2025-08-24 05:02:19:219 [31merror[39m: [31m404 - User not found - /api/auth/login - GET - ::1[39m
+2025-08-24 05:02:19:219 [35mhttp[39m: [35mGET /api/auth/login 404 264 - 134.745 ms[39m
+2025-08-24 05:14:59:1459 [31merror[39m: [31m404 - User not found - /api/auth/login - GET - ::1[39m
+2025-08-24 05:14:59:1459 [35mhttp[39m: [35mGET /api/auth/login 404 264 - 140.136 ms[39m
+2025-08-24 05:16:08:168 [31merror[39m: [31m404 - User not found - /api/auth/login - GET - ::1[39m
+2025-08-24 05:16:08:168 [35mhttp[39m: [35mGET /api/auth/login 404 264 - 87.944 ms[39m
+2025-08-24 05:23:09:239 [35mhttp[39m: [35mGET /api/auth/current-user 404 160 - 10.416 ms[39m
+2025-08-24 05:23:09:239 [35mhttp[39m: [35mGET /api/auth/current-user 404 160 - 1.997 ms[39m
+2025-08-24 05:23:12:2312 [35mhttp[39m: [35mGET /api/auth/current-user 404 160 - 2.084 ms[39m
+2025-08-24 05:23:12:2312 [35mhttp[39m: [35mGET /api/auth/current-user 404 160 - 1.040 ms[39m
+2025-08-24 05:23:14:2314 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.424 ms[39m
+2025-08-24 05:23:14:2314 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.807 ms[39m
+2025-08-24 05:23:44:2344 [35mhttp[39m: [35mPOST /api/v1/auth/login 404 157 - 1.425 ms[39m
+2025-08-24 05:24:21:2421 [35mhttp[39m: [35mGET /api/v1/auth/login 404 156 - 0.760 ms[39m
+2025-08-24 05:24:47:2447 [35mhttp[39m: [35mGET /api/v1/auth/login 404 156 - 1.752 ms[39m
+2025-08-24 05:24:59:2459 [35mhttp[39m: [35mPOST /api/v1/auth/login 404 157 - 0.559 ms[39m
+2025-08-24 05:26:29:2629 [35mhttp[39m: [35mPOST /api/v1/auth/login 404 157 - 0.781 ms[39m
+2025-08-24 05:29:39:2939 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 6.949 ms[39m
+2025-08-24 05:29:39:2939 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.580 ms[39m
+2025-08-24 05:29:43:2943 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.162 ms[39m
+2025-08-24 05:29:43:2943 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.431 ms[39m
+2025-08-24 05:29:45:2945 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.032 ms[39m
+2025-08-24 05:29:45:2945 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.107 ms[39m
+2025-08-24 05:29:51:2951 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.453 ms[39m
+2025-08-24 05:29:51:2951 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.432 ms[39m
+2025-08-24 05:29:52:2952 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.451 ms[39m
+2025-08-24 05:29:52:2952 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.831 ms[39m
+2025-08-24 05:29:54:2954 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.022 ms[39m
+2025-08-24 05:29:54:2954 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.971 ms[39m
+2025-08-24 05:29:59:2959 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.935 ms[39m
+2025-08-24 05:29:59:2959 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.312 ms[39m
+2025-08-24 05:30:00:300 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.791 ms[39m
+2025-08-24 05:30:00:300 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.197 ms[39m
+2025-08-24 05:30:18:3018 [35mhttp[39m: [35mPOST /api/v1/auth/login 404 157 - 0.734 ms[39m
+2025-08-24 05:31:06:316 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.042 ms[39m
+2025-08-24 05:31:06:316 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.860 ms[39m
+2025-08-24 05:31:08:318 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.890 ms[39m
+2025-08-24 05:31:08:318 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.843 ms[39m
+2025-08-24 05:31:11:3111 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 1.117 ms[39m
+2025-08-24 05:31:11:3111 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.976 ms[39m
+2025-08-24 05:31:23:3123 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.899 ms[39m
+2025-08-24 05:31:23:3123 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.772 ms[39m
+2025-08-24 05:31:30:3130 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.920 ms[39m
+2025-08-24 05:31:30:3130 [35mhttp[39m: [35mGET /api/v1/auth/current-user 404 163 - 0.552 ms[39m
+2025-08-24 05:32:40:3240 [35mhttp[39m: [35mPOST /api/v1/auth/login 404 157 - 2.796 ms[39m
+2025-08-24 05:38:57:3857 [35mhttp[39m: [35mPOST /api/v1/auth/login 404 157 - 8.211 ms[39m
+2025-08-24 05:41:06:416 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 300 - 380.293 ms[39m
+2025-08-24 05:41:06:416 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 289 - 63.272 ms[39m
+2025-08-24 05:41:06:416 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 1001 - 116.996 ms[39m
+2025-08-24 05:41:06:416 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.663 ms[39m
+2025-08-24 05:41:12:4112 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 200 425 - 114.725 ms[39m
+2025-08-24 05:41:12:4112 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 47.492 ms[39m
+2025-08-24 05:41:13:4113 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 110.064 ms[39m
+2025-08-24 05:41:13:4113 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 58.892 ms[39m
+2025-08-24 05:41:18:4118 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:41:18:4118 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 1239.832 ms[39m
+2025-08-24 05:41:25:4125 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 200 185 - 58.280 ms[39m
+2025-08-24 05:41:25:4125 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 200 710 - 93.356 ms[39m
+2025-08-24 05:41:25:4125 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 52.543 ms[39m
+2025-08-24 05:41:25:4125 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 84.071 ms[39m
+2025-08-24 05:41:28:4128 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 92.756 ms[39m
+2025-08-24 05:41:28:4128 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 53.423 ms[39m
+2025-08-24 05:41:28:4128 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 88.932 ms[39m
+2025-08-24 05:41:28:4128 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 45.859 ms[39m
+2025-08-24 05:41:38:4138 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 87.396 ms[39m
+2025-08-24 05:41:38:4138 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 86.411 ms[39m
+2025-08-24 05:41:46:4146 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 42.555 ms[39m
+2025-08-24 05:41:46:4146 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 41.691 ms[39m
+2025-08-24 05:41:46:4146 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 103.533 ms[39m
+2025-08-24 05:41:46:4146 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 103.331 ms[39m
+2025-08-24 05:43:42:4342 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 129.845 ms[39m
+2025-08-24 05:43:42:4342 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.webp' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 05:43:42:4342 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 300 - 65.360 ms[39m
+2025-08-24 05:43:52:4352 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 51.002 ms[39m
+2025-08-24 05:43:52:4352 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 81.866 ms[39m
+2025-08-24 05:43:52:4352 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 50.808 ms[39m
+2025-08-24 05:43:52:4352 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 82.867 ms[39m
+2025-08-24 05:44:07:447 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 89.545 ms[39m
+2025-08-24 05:44:07:447 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 05:44:07:447 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 298 - 49.357 ms[39m
+2025-08-24 05:46:41:4641 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 200.351 ms[39m
+2025-08-24 05:46:41:4641 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 95.441 ms[39m
+2025-08-24 05:46:42:4642 [35mhttp[39m: [35mGET /api/v1/notes 200 1278 - 85.355 ms[39m
+2025-08-24 05:46:43:4643 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 86.019 ms[39m
+2025-08-24 05:46:45:4645 [35mhttp[39m: [35mGET /api/v1/orders/purchased 200 92 - 176.284 ms[39m
+2025-08-24 05:46:45:4645 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 85.755 ms[39m
+2025-08-24 05:46:48:4648 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 50.976 ms[39m
+2025-08-24 05:46:48:4648 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 89.742 ms[39m
+2025-08-24 05:46:49:4649 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 49.189 ms[39m
+2025-08-24 05:46:49:4649 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 82.905 ms[39m
+2025-08-24 05:47:03:473 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 226.020 ms[39m
+2025-08-24 05:47:03:473 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 107.956 ms[39m
+2025-08-24 05:47:04:474 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 1482.493 ms[39m
+2025-08-24 05:47:05:475 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 44.265 ms[39m
+2025-08-24 05:47:29:4729 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 88.371 ms[39m
+2025-08-24 05:47:29:4729 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 86.845 ms[39m
+2025-08-24 05:47:31:4731 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 41.523 ms[39m
+2025-08-24 05:47:31:4731 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 41.059 ms[39m
+2025-08-24 05:47:31:4731 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 96.403 ms[39m
+2025-08-24 05:47:31:4731 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 98.745 ms[39m
+2025-08-24 05:47:32:4732 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 99.486 ms[39m
+2025-08-24 05:47:32:4732 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 104.648 ms[39m
+2025-08-24 05:47:34:4734 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 98.485 ms[39m
+2025-08-24 05:47:34:4734 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.003 ms[39m
+2025-08-24 05:47:35:4735 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 113.452 ms[39m
+2025-08-24 05:47:35:4735 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 108.797 ms[39m
+2025-08-24 05:47:47:4747 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:47:4747 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 527.799 ms[39m
+2025-08-24 05:47:52:4752 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:52:4752 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 318.031 ms[39m
+2025-08-24 05:47:53:4753 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:53:4753 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 174.783 ms[39m
+2025-08-24 05:47:54:4754 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:54:4754 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 186.202 ms[39m
+2025-08-24 05:47:55:4755 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:55:4755 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 181.426 ms[39m
+2025-08-24 05:47:56:4756 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:56:4756 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 179.760 ms[39m
+2025-08-24 05:47:57:4757 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:57:4757 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 178.944 ms[39m
+2025-08-24 05:47:58:4758 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:58:4758 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 185.584 ms[39m
+2025-08-24 06:03:00:30 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:03:00:30 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 1307.940 ms[39m
+2025-08-24 06:03:03:33 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 105.185 ms[39m
+2025-08-24 06:03:03:33 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 46.173 ms[39m
+2025-08-24 06:03:03:33 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 99.313 ms[39m
+2025-08-24 06:03:03:33 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 51.930 ms[39m
+2025-08-24 06:03:05:35 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:03:05:35 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 194.252 ms[39m
+2025-08-24 06:03:08:38 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:03:08:38 [35mhttp[39m: [35mPOST /api/v1/orders 400 51 - 181.016 ms[39m
+2025-08-24 06:07:39:739 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 289 - 76.072 ms[39m
+2025-08-24 06:07:39:739 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 51.909 ms[39m
+2025-08-24 06:07:39:739 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 110.968 ms[39m
+2025-08-24 06:07:39:739 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.813 ms[39m
+2025-08-24 06:07:42:742 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 46.615 ms[39m
+2025-08-24 06:07:42:742 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 44.198 ms[39m
+2025-08-24 06:07:42:742 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 105.389 ms[39m
+2025-08-24 06:07:42:742 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 103.385 ms[39m
+2025-08-24 06:07:47:747 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:07:47:747 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 359.818 ms[39m
+2025-08-24 06:07:55:755 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 105.245 ms[39m
+2025-08-24 06:07:55:755 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 51.041 ms[39m
+2025-08-24 06:07:55:755 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 101.508 ms[39m
+2025-08-24 06:07:55:755 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 56.674 ms[39m
+2025-08-24 06:07:56:756 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:07:56:756 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 293.642 ms[39m
+2025-08-24 06:08:05:85 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 104.158 ms[39m
+2025-08-24 06:08:05:85 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 106.335 ms[39m
+2025-08-24 06:08:08:88 [35mhttp[39m: [35mGET /api/v1/notes/685f11ec9095f2e0ff9dee6b 200 486 - 104.412 ms[39m
+2025-08-24 06:08:08:88 [35mhttp[39m: [35mGET /api/v1/views/685f11ec9095f2e0ff9dee6b 404 176 - 47.347 ms[39m
+2025-08-24 06:08:08:88 [35mhttp[39m: [35mGET /api/v1/notes/685f11ec9095f2e0ff9dee6b 304 - - 100.119 ms[39m
+2025-08-24 06:08:08:88 [35mhttp[39m: [35mGET /api/v1/views/685f11ec9095f2e0ff9dee6b 404 176 - 51.237 ms[39m
+2025-08-24 06:08:11:811 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:08:11:811 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 364.880 ms[39m
+2025-08-24 06:15:09:159 [35mhttp[39m: [35mGET /api/v1/notes/685f11ec9095f2e0ff9dee6b 304 - - 209.965 ms[39m
+2025-08-24 06:15:09:159 [35mhttp[39m: [35mGET /api/v1/views/685f11ec9095f2e0ff9dee6b 404 176 - 130.787 ms[39m
+2025-08-24 06:15:16:1516 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 58.691 ms[39m
+2025-08-24 06:15:16:1516 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 62.075 ms[39m
+2025-08-24 06:15:16:1516 [35mhttp[39m: [35mGET /api/v1/notes/685f11ec9095f2e0ff9dee6b 304 - - 103.877 ms[39m
+2025-08-24 06:15:16:1516 [35mhttp[39m: [35mGET /api/v1/views/685f11ec9095f2e0ff9dee6b 404 176 - 47.518 ms[39m
+2025-08-24 06:15:16:1516 [35mhttp[39m: [35mGET /api/v1/notes/685f11ec9095f2e0ff9dee6b 304 - - 110.428 ms[39m
+2025-08-24 06:15:16:1516 [35mhttp[39m: [35mGET /api/v1/views/685f11ec9095f2e0ff9dee6b 404 176 - 53.095 ms[39m
+2025-08-24 06:15:20:1520 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:15:20:1520 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 1481.999 ms[39m
+2025-08-24 06:23:53:2353 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 198.164 ms[39m
+2025-08-24 06:23:53:2353 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 190.710 ms[39m
+2025-08-24 06:23:53:2353 [35mhttp[39m: [35mGET /api/v1/auth/binodbabu 304 - - 53.475 ms[39m
+2025-08-24 06:23:53:2353 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/binodbabu 304 - - 96.975 ms[39m
+2025-08-24 06:24:07:247 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 219.537 ms[39m
+2025-08-24 06:24:07:247 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:24:07:247 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 298 - 73.642 ms[39m
+2025-08-24 06:26:24:2624 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 134.445 ms[39m
+2025-08-24 06:26:24:2624 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:26:24:2624 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 298 - 57.465 ms[39m
+2025-08-24 06:27:08:278 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 117.635 ms[39m
+2025-08-24 06:27:08:278 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:27:08:278 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 298 - 54.639 ms[39m
+2025-08-24 06:27:15:2715 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 103.742 ms[39m
+2025-08-24 06:27:15:2715 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:27:15:2715 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 298 - 53.946 ms[39m
+2025-08-24 06:34:45:3445 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 142.655 ms[39m
+2025-08-24 06:34:45:3445 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997485466-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:34:45:3445 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 69.109 ms[39m
+2025-08-24 06:35:02:352 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 125.194 ms[39m
+2025-08-24 06:35:03:353 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997503010-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:03:353 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 61.235 ms[39m
+2025-08-24 06:35:04:354 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 111.971 ms[39m
+2025-08-24 06:35:04:354 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997504253-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:04:354 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 58.991 ms[39m
+2025-08-24 06:35:05:355 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 112.508 ms[39m
+2025-08-24 06:35:05:355 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997505275-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:05:355 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 55.439 ms[39m
+2025-08-24 06:35:06:356 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 114.190 ms[39m
+2025-08-24 06:35:06:356 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997506218-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:06:356 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 63.512 ms[39m
+2025-08-24 06:35:07:357 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 292 - 107.909 ms[39m
+2025-08-24 06:35:07:357 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997507108-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:07:357 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 55.937 ms[39m
+2025-08-24 06:36:30:3630 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 174.456 ms[39m
+2025-08-24 06:36:30:3630 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 102.097 ms[39m
+2025-08-24 06:36:33:3633 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 109.498 ms[39m
+2025-08-24 06:36:33:3633 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 106.231 ms[39m
+2025-08-24 06:36:36:3636 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 102.467 ms[39m
+2025-08-24 06:36:36:3636 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.156 ms[39m
+2025-08-24 06:36:37:3637 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 100.439 ms[39m
+2025-08-24 06:36:38:3638 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 60.651 ms[39m
+2025-08-24 06:36:38:3638 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 105.240 ms[39m
+2025-08-24 06:36:38:3638 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 54.364 ms[39m
+2025-08-24 06:36:59:3659 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 108.210 ms[39m
+2025-08-24 06:36:59:3659 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 105.128 ms[39m
+2025-08-24 06:37:01:371 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 104.905 ms[39m
+2025-08-24 06:37:01:371 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 56.222 ms[39m
+2025-08-24 06:37:01:371 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 103.793 ms[39m
+2025-08-24 06:37:01:371 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 53.763 ms[39m
+2025-08-24 06:37:13:3713 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 103.120 ms[39m
+2025-08-24 06:37:13:3713 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 102.057 ms[39m
+2025-08-24 06:37:17:3717 [35mhttp[39m: [35mGET /api/v1/notes/6861b8d73176a2fcd6202588 200 483 - 100.804 ms[39m
+2025-08-24 06:37:17:3717 [35mhttp[39m: [35mGET /api/v1/notes/6861b8d73176a2fcd6202588 304 - - 98.789 ms[39m
+2025-08-24 06:37:19:3719 [35mhttp[39m: [35mGET /api/v1/views/6861b8d73176a2fcd6202588 404 176 - 54.065 ms[39m
+2025-08-24 06:37:19:3719 [35mhttp[39m: [35mGET /api/v1/views/6861b8d73176a2fcd6202588 404 176 - 52.261 ms[39m
+2025-08-24 06:37:22:3722 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:37:22:3722 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 1629.270 ms[39m
+2025-08-24 06:37:30:3730 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.792 ms[39m
+2025-08-24 06:37:30:3730 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.668 ms[39m
+2025-08-24 06:37:33:3733 [35mhttp[39m: [35mGET /api/v1/notes/6861b8d73176a2fcd6202588 304 - - 99.844 ms[39m
+2025-08-24 06:37:34:3734 [35mhttp[39m: [35mGET /api/v1/views/6861b8d73176a2fcd6202588 404 176 - 52.932 ms[39m
+2025-08-24 06:37:34:3734 [35mhttp[39m: [35mGET /api/v1/notes/6861b8d73176a2fcd6202588 304 - - 100.988 ms[39m
+2025-08-24 06:37:34:3734 [35mhttp[39m: [35mGET /api/v1/views/6861b8d73176a2fcd6202588 404 176 - 51.461 ms[39m
+2025-08-24 06:37:37:3737 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.245 ms[39m
+2025-08-24 06:37:37:3737 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.925 ms[39m
+2025-08-24 06:37:39:3739 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 103.492 ms[39m
+2025-08-24 06:37:39:3739 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 53.612 ms[39m
+2025-08-24 06:37:39:3739 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 102.412 ms[39m
+2025-08-24 06:37:40:3740 [35mhttp[39m: [35mGET /api/v1/views/685f257a9899a34384ccafc3 404 176 - 51.429 ms[39m
+2025-08-24 06:39:09:399 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 105.401 ms[39m
+2025-08-24 06:39:10:3910 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 101.805 ms[39m
+2025-08-24 06:39:12:3912 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.417 ms[39m
+2025-08-24 06:39:12:3912 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 101.678 ms[39m
+2025-08-24 06:39:14:3914 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.363 ms[39m
+2025-08-24 06:39:14:3914 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 115.035 ms[39m
+2025-08-24 06:39:19:3919 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 200 434 - 104.044 ms[39m
+2025-08-24 06:39:19:3919 [35mhttp[39m: [35mGET /api/v1/views/685f8fe06de20c699cbe236e 404 176 - 52.235 ms[39m
+2025-08-24 06:39:19:3919 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 100.169 ms[39m
+2025-08-24 06:39:20:3920 [35mhttp[39m: [35mGET /api/v1/views/685f8fe06de20c699cbe236e 404 176 - 51.654 ms[39m
+2025-08-24 06:39:48:3948 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 289 - 80.210 ms[39m
+2025-08-24 06:39:48:3948 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 57.276 ms[39m
+2025-08-24 06:39:49:3949 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 106.562 ms[39m
+2025-08-24 06:39:49:3949 [35mhttp[39m: [35mGET /api/v1/views/685f8fe06de20c699cbe236e 404 176 - 54.976 ms[39m
+2025-08-24 06:39:49:3949 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 101.051 ms[39m
+2025-08-24 06:39:49:3949 [35mhttp[39m: [35mGET /api/v1/views/685f8fe06de20c699cbe236e 404 176 - 50.528 ms[39m
+2025-08-24 06:42:07:427 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 139.222 ms[39m
+2025-08-24 06:42:51:4251 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:42:51:4251 [35mhttp[39m: [35mGET /api/v1/auth/current-user 400 1295 - 140.421 ms[39m
+2025-08-24 06:42:51:4251 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:42:51:4251 [35mhttp[39m: [35mGET /api/v1/auth/current-user 400 1295 - 11.570 ms[39m
+2025-08-24 06:42:52:4252 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 117.579 ms[39m
+2025-08-24 06:42:52:4252 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 101.833 ms[39m
+2025-08-24 06:43:37:4337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:43:37:4337 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 10.111 ms[39m
+2025-08-24 06:43:37:4337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:43:37:4337 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.454 ms[39m
+2025-08-24 06:43:37:4337 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 110.294 ms[39m
+2025-08-24 06:43:37:4337 [35mhttp[39m: [35mGET /api/v1/notes/685f8fe06de20c699cbe236e 304 - - 107.581 ms[39m
+2025-08-24 06:43:40:4340 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.605 ms[39m
+2025-08-24 06:43:40:4340 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.823 ms[39m
+2025-08-24 06:43:43:4343 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 98.340 ms[39m
+2025-08-24 06:43:43:4343 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 304 - - 99.479 ms[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 07:03:52:352 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 91.158 ms[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 07:03:52:352 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.507 ms[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m404 - Note not found - /api/v1/notes/685f257a9899a34384ccafc3 - GET - ::1[39m
+2025-08-24 07:03:52:352 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 404 263 - 121.570 ms[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m404 - Note not found - /api/v1/notes/685f257a9899a34384ccafc3 - GET - ::1[39m
+2025-08-24 07:03:52:352 [35mhttp[39m: [35mGET /api/v1/notes/685f257a9899a34384ccafc3 404 263 - 56.091 ms[39m
+2025-08-24 07:04:42:442 [35mhttp[39m: [35mPOST /api/v1/auth/register 201 305 - 445.618 ms[39m
+2025-08-24 07:04:52:452 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 313 - 395.145 ms[39m
+2025-08-24 07:04:52:452 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 302 - 61.522 ms[39m
+2025-08-24 07:04:53:453 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 82 - 52.841 ms[39m
+2025-08-24 07:04:53:453 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.487 ms[39m
+2025-08-24 07:12:48:1248 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 200 190 - 156.539 ms[39m
+2025-08-24 07:12:48:1248 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 91 - 157.336 ms[39m
+2025-08-24 07:12:48:1248 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 51.224 ms[39m
+2025-08-24 07:12:48:1248 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 99.469 ms[39m
+2025-08-24 07:13:01:131 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 284.982 ms[39m
+2025-08-24 07:13:02:132 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755999782067-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 07:13:02:132 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 326 - 128.167 ms[39m
+2025-08-24 07:15:29:1529 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 137.915 ms[39m
+2025-08-24 07:17:38:1738 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 137.573 ms[39m
+2025-08-24 07:18:16:1816 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 302 - 77.449 ms[39m
+2025-08-24 07:18:16:1816 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 53.009 ms[39m
+2025-08-24 07:18:16:1816 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 50.115 ms[39m
+2025-08-24 07:18:16:1816 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 85.938 ms[39m
+2025-08-24 07:18:16:1816 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 47.425 ms[39m
+2025-08-24 07:18:16:1816 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 82.962 ms[39m
+2025-08-24 07:18:36:1836 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 312 - 99.906 ms[39m
+2025-08-24 07:18:55:1855 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 318 - 90.814 ms[39m
+2025-08-24 07:18:56:1856 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 200 203 - 45.672 ms[39m
+2025-08-24 07:18:56:1856 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 91 - 95.416 ms[39m
+2025-08-24 07:19:04:194 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 103.829 ms[39m
+2025-08-24 07:19:04:194 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 96.730 ms[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/notes/uploaded/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 404 263 - 44.390 ms[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/auth/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 404 264 - 62.151 ms[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/auth/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 404 264 - 44.465 ms[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/notes/uploaded/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 404 263 - 51.500 ms[39m
+2025-08-24 07:19:18:1918 [35mhttp[39m: [35mPOST /api/v1/auth/logout 200 84 - 101.474 ms[39m
+2025-08-24 07:19:18:1918 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 50.651 ms[39m
+2025-08-24 07:19:18:1918 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 47.185 ms[39m
+2025-09-01 06:22:46:2246 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-01 06:22:46:2246 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 25.169 ms[39m
+2025-09-01 06:22:46:2246 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-01 06:22:46:2246 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.802 ms[39m
+2025-09-01 06:22:46:2246 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 82 - 59.987 ms[39m
+2025-09-01 06:22:46:2246 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 45.737 ms[39m
+2025-09-01 06:22:51:2251 [35mhttp[39m: [35mGET /api/v1/notes 200 82 - 51.074 ms[39m
+2025-09-01 06:22:51:2251 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 46.864 ms[39m
+2025-09-01 06:22:52:2252 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 47.150 ms[39m
+2025-09-01 06:22:52:2252 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 46.277 ms[39m
+2025-09-01 06:23:01:231 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:23:01:231 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 189 - 204.195 ms[39m
+2025-09-01 06:23:07:237 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:23:07:237 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 189 - 172.859 ms[39m
+2025-09-01 06:23:58:2358 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:23:58:2358 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 189 - 155.304 ms[39m
+2025-09-01 06:24:05:245 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:24:05:245 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 189 - 162.709 ms[39m
+2025-09-01 06:24:11:2411 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:24:11:2411 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 189 - 158.253 ms[39m
+2025-09-01 06:26:05:265 [35mhttp[39m: [35mPOST /api/v1/auth/register 201 291 - 291.320 ms[39m
+2025-09-01 06:26:15:2615 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 299 - 310.751 ms[39m
+2025-09-01 06:26:15:2615 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 288 - 55.688 ms[39m
+2025-09-01 06:26:15:2615 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 47.116 ms[39m
+2025-09-01 06:26:15:2615 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 46.323 ms[39m
+2025-09-01 06:26:22:2622 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 47.821 ms[39m
+2025-09-01 06:26:22:2622 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 47.554 ms[39m
+2025-09-01 06:26:24:2624 [35mhttp[39m: [35mGET /api/v1/orders/purchased 200 92 - 97.301 ms[39m
+2025-09-01 06:26:24:2624 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 95.188 ms[39m
+2025-09-01 06:39:22:3922 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 299 - 354.996 ms[39m
+2025-09-01 06:39:22:3922 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 288 - 52.149 ms[39m
+2025-09-01 06:39:26:3926 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 52.477 ms[39m
+2025-09-01 06:39:26:3926 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 48.141 ms[39m
+2025-09-01 06:39:27:3927 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 48.988 ms[39m
+2025-09-01 06:39:27:3927 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 47.636 ms[39m
+2025-09-01 06:47:17:4717 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:47:18:4718 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 946.984 ms[39m
+2025-09-01 06:47:45:4745 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::ffff:127.0.0.1[39m
+2025-09-01 06:47:45:4745 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 63.127 ms[39m
+2025-09-01 06:47:52:4752 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:47:52:4752 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 59.660 ms[39m
+2025-09-01 06:48:03:483 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:48:03:483 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 63.310 ms[39m
+2025-09-01 06:50:38:5038 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:50:38:5038 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 111.305 ms[39m
+2025-09-01 06:50:49:5049 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:50:49:5049 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 116.095 ms[39m
+2025-09-01 06:56:43:5643 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:56:43:5643 [35mhttp[39m: [35mPOST /api/v1/notes 500 271 - 129.059 ms[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 15.917 ms[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.463 ms[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.290 ms[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.897 ms[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 82 - 64.913 ms[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 50.350 ms[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 50.865 ms[39m
+2025-09-10 01:51:58:5158 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 50.057 ms[39m
+2025-09-10 01:52:02:522 [35mhttp[39m: [35mGET /api/v1/notes 200 82 - 51.833 ms[39m
+2025-09-10 01:52:02:522 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 49.924 ms[39m
+2025-09-10 01:52:35:5235 [31merror[39m: [31m409 - User with email or username already exists - /api/v1/auth/register - POST - ::1[39m
+2025-09-10 01:52:35:5235 [35mhttp[39m: [35mPOST /api/v1/auth/register 409 319 - 66.075 ms[39m
+2025-09-10 01:52:58:5258 [35mhttp[39m: [35mPOST /api/v1/auth/register 201 305 - 311.496 ms[39m
+2025-09-10 01:53:12:5312 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 313 - 322.764 ms[39m
+2025-09-10 01:53:13:5313 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 302 - 63.969 ms[39m
+2025-09-10 01:53:13:5313 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.663 ms[39m
+2025-09-10 01:53:13:5313 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.596 ms[39m
+2025-09-10 01:53:15:5315 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 48.662 ms[39m
+2025-09-10 01:53:15:5315 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 46.945 ms[39m
+2025-09-10 01:53:39:5339 [35mhttp[39m: [35mGET /api/v1/orders/purchased 200 92 - 102.965 ms[39m
+2025-09-10 01:53:40:5340 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 98.108 ms[39m
+2025-09-10 01:53:40:5340 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 200 190 - 48.770 ms[39m
+2025-09-10 01:53:40:5340 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 91 - 93.963 ms[39m
+2025-09-10 01:53:40:5340 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 49.974 ms[39m
+2025-09-10 01:53:40:5340 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 106.775 ms[39m
+2025-09-10 01:53:53:5353 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 127.044 ms[39m
+2025-09-10 01:53:53:5353 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:53:53:5353 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 276 - 79.375 ms[39m
+2025-09-10 01:54:00:540 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 98.764 ms[39m
+2025-09-10 01:54:00:540 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:00:540 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 276 - 85.469 ms[39m
+2025-09-10 01:54:01:541 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 99.431 ms[39m
+2025-09-10 01:54:01:541 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:01:541 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 276 - 53.982 ms[39m
+2025-09-10 01:54:02:542 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 98.202 ms[39m
+2025-09-10 01:54:02:542 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:02:542 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 276 - 53.862 ms[39m
+2025-09-10 01:54:20:5420 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 104.895 ms[39m
+2025-09-10 01:54:20:5420 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:20:5420 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 276 - 57.523 ms[39m
+2025-09-10 01:57:10:5710 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 104.395 ms[39m
+2025-09-10 01:57:10:5710 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 93.992 ms[39m
+2025-09-10 01:57:12:5712 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 51.485 ms[39m
+2025-09-10 01:57:12:5712 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 59.859 ms[39m
+2025-09-10 01:57:20:5720 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 97.846 ms[39m
+2025-09-10 01:57:20:5720 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 98.965 ms[39m
+2025-09-10 01:57:23:5723 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 47.648 ms[39m
+2025-09-10 01:57:23:5723 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 46.420 ms[39m
+2025-09-10 01:57:23:5723 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 96.524 ms[39m
+2025-09-10 01:57:23:5723 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 96.347 ms[39m
+2025-09-10 01:57:38:5738 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 116.465 ms[39m
+2025-09-10 01:57:38:5738 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:57:38:5738 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 276 - 65.117 ms[39m
+2025-09-10 02:13:04:134 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 129.532 ms[39m
+2025-09-10 02:13:04:134 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:13:04:134 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 78.868 ms[39m
+2025-09-10 02:13:27:1327 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 302 - 48.772 ms[39m
+2025-09-10 02:13:27:1327 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 47.388 ms[39m
+2025-09-10 02:13:27:1327 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 44.384 ms[39m
+2025-09-10 02:13:27:1327 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 42.757 ms[39m
+2025-09-10 02:13:27:1327 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 92.281 ms[39m
+2025-09-10 02:13:27:1327 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 89.805 ms[39m
+2025-09-10 02:13:32:1332 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 97.447 ms[39m
+2025-09-10 02:13:49:1349 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 93.671 ms[39m
+2025-09-10 02:13:49:1349 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:13:49:1349 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 63.642 ms[39m
+2025-09-10 02:15:59:1559 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 261.944 ms[39m
+2025-09-10 02:15:59:1559 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:15:59:1559 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 390.613 ms[39m
+2025-09-10 02:17:33:1733 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 158.712 ms[39m
+2025-09-10 02:17:33:1733 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:17:33:1733 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 93.155 ms[39m
+2025-09-10 02:17:54:1754 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 131.627 ms[39m
+2025-09-10 02:17:54:1754 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:17:54:1754 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 76.303 ms[39m
+2025-09-10 02:19:03:193 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 153.250 ms[39m
+2025-09-10 02:19:03:193 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:19:04:194 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 83.900 ms[39m
+2025-09-10 02:24:23:2423 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 178.052 ms[39m
+2025-09-10 02:24:23:2423 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:24:23:2423 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 83.133 ms[39m
+2025-09-10 02:25:14:2514 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 281.407 ms[39m
+2025-09-10 02:25:15:2515 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:25:15:2515 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 386.923 ms[39m
+2025-09-10 02:27:38:2738 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 137.186 ms[39m
+2025-09-10 02:27:38:2738 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:27:38:2738 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 500 336 - 76.429 ms[39m
+2025-09-10 02:33:49:3349 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 305 - 144.967 ms[39m
+2025-09-10 02:33:53:3353 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 200 402 - 3979.450 ms[39m
+2025-09-10 02:34:10:3410 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 114.064 ms[39m
+2025-09-10 02:34:10:3410 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 103.633 ms[39m
+2025-09-10 02:35:57:3557 [35mhttp[39m: [35mPOST /api/v1/notes 201 636 - 3720.583 ms[39m
+2025-09-10 02:35:57:3557 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 200 288 - 50.594 ms[39m
+2025-09-10 02:35:57:3557 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 640 - 95.998 ms[39m
+2025-09-10 02:35:57:3557 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 48.653 ms[39m
+2025-09-10 02:35:57:3557 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 99.352 ms[39m
+2025-09-10 02:36:06:366 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-10 02:36:06:366 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 1036.888 ms[39m
+2025-09-10 02:36:16:3616 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.254 ms[39m
+2025-09-10 02:36:16:3616 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 48.087 ms[39m
+2025-09-10 02:36:20:3620 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 400 - 53.626 ms[39m
+2025-09-10 02:36:20:3620 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 57.850 ms[39m
+2025-09-10 02:36:20:3620 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.272 ms[39m
+2025-09-10 02:36:20:3620 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 48.057 ms[39m
+2025-09-10 02:36:32:3632 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 55.940 ms[39m
+2025-09-10 02:36:32:3632 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 54.669 ms[39m
+2025-09-10 02:36:32:3632 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.474 ms[39m
+2025-09-10 02:36:32:3632 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.651 ms[39m
+2025-09-10 02:36:40:3640 [35mhttp[39m: [35mGET /api/v1/notes 200 560 - 114.588 ms[39m
+2025-09-10 02:36:41:3641 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 97.315 ms[39m
+2025-09-10 02:36:44:3644 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 51.437 ms[39m
+2025-09-10 02:36:44:3644 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 48.058 ms[39m
+2025-09-10 02:37:43:3743 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 56.231 ms[39m
+2025-09-10 02:37:43:3743 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 55.591 ms[39m
+2025-09-10 02:37:43:3743 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 559 - 94.132 ms[39m
+2025-09-10 02:37:43:3743 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.122 ms[39m
+2025-09-10 02:37:57:3757 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 101.123 ms[39m
+2025-09-10 02:37:57:3757 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 97.301 ms[39m
+2025-09-10 02:38:01:381 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 48.173 ms[39m
+2025-09-10 02:38:01:381 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 47.301 ms[39m
+2025-09-10 02:38:01:381 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 639 - 95.649 ms[39m
+2025-09-10 02:38:02:382 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 92.755 ms[39m
+2025-09-10 02:38:09:389 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 97.751 ms[39m
+2025-09-10 02:38:09:389 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 110.862 ms[39m
+2025-09-10 02:38:12:3812 [35mhttp[39m: [35mGET /api/v1/notes 200 559 - 96.274 ms[39m
+2025-09-10 02:38:12:3812 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 94.920 ms[39m
+2025-09-10 02:38:15:3815 [35mhttp[39m: [35mGET /api/v1/notes/68c096b5ab587e302a738287 200 636 - 95.691 ms[39m
+2025-09-10 02:38:15:3815 [35mhttp[39m: [35mGET /api/v1/notes/68c096b5ab587e302a738287 304 - - 95.546 ms[39m
+2025-09-10 02:38:42:3842 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 47.248 ms[39m
+2025-09-10 02:38:42:3842 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 92.979 ms[39m
+2025-09-10 02:38:42:3842 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 45.895 ms[39m
+2025-09-10 02:38:42:3842 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 94.631 ms[39m
+2025-09-10 02:42:06:426 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 158.160 ms[39m
+2025-09-10 02:42:06:426 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.219 ms[39m
+2025-09-10 02:42:09:429 [35mhttp[39m: [35mGET /api/v1/notes/68c096b5ab587e302a738287 304 - - 107.267 ms[39m
+2025-09-10 02:42:09:429 [35mhttp[39m: [35mGET /api/v1/notes/68c096b5ab587e302a738287 304 - - 98.280 ms[39m
+2025-09-10 02:42:27:4227 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.161 ms[39m
+2025-09-10 02:42:27:4227 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 96.392 ms[39m
+2025-09-10 02:46:45:4645 [35mhttp[39m: [35mPOST /api/v1/notes 201 664 - 4843.852 ms[39m
+2025-09-10 02:46:45:4645 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 52.255 ms[39m
+2025-09-10 02:46:45:4645 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 1217 - 95.397 ms[39m
+2025-09-10 02:46:45:4645 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 49.012 ms[39m
+2025-09-10 02:46:45:4645 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 94.970 ms[39m
+2025-09-10 02:46:53:4653 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 200 664 - 96.690 ms[39m
+2025-09-10 02:46:53:4653 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 100.611 ms[39m
+2025-09-10 02:54:26:5426 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 76.768 ms[39m
+2025-09-10 02:54:26:5426 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 1216 - 147.423 ms[39m
+2025-09-10 02:54:26:5426 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 52.745 ms[39m
+2025-09-10 02:54:26:5426 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 104.933 ms[39m
+2025-09-10 02:56:26:5626 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-10 02:56:26:5626 [35mhttp[39m: [35mPOST /api/v1/notes 400 1295 - 10.815 ms[39m
+2025-09-10 02:56:36:5636 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-10 02:56:36:5636 [35mhttp[39m: [35mPOST /api/v1/notes 400 1295 - 6.220 ms[39m
+2025-09-10 02:56:51:5651 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 02:56:51:5651 [35mhttp[39m: [35mGET /api/v1/auth/current-user 400 1295 - 7.029 ms[39m
+2025-09-10 02:56:51:5651 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 02:56:51:5651 [35mhttp[39m: [35mGET /api/v1/auth/current-user 400 1295 - 6.958 ms[39m
+2025-09-10 02:57:10:5710 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 411 - 432.959 ms[39m
+2025-09-10 02:57:10:5710 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 400 - 56.795 ms[39m
+2025-09-10 02:58:42:5842 [35mhttp[39m: [35mPOST /api/v1/notes 201 608 - 2855.757 ms[39m
+2025-09-10 02:58:42:5842 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 51.117 ms[39m
+2025-09-10 02:58:42:5842 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 1738 - 94.602 ms[39m
+2025-09-10 02:58:42:5842 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 49.610 ms[39m
+2025-09-10 02:58:42:5842 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 103.289 ms[39m
+2025-09-10 02:58:46:5846 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 200 608 - 105.469 ms[39m
+2025-09-10 02:58:46:5846 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 93.755 ms[39m
+2025-09-10 03:00:57:057 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 112.464 ms[39m
+2025-09-10 03:00:57:057 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 177.046 ms[39m
+2025-09-10 03:00:57:057 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 98.415 ms[39m
+2025-09-10 03:00:57:057 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 359.506 ms[39m
+2025-09-10 03:02:29:229 [31merror[39m: [31m500 - Note validation failed: fileUrl: Path `fileUrl` is required. - /api/v1/notes - POST - ::1[39m
+2025-09-10 03:02:29:229 [35mhttp[39m: [35mPOST /api/v1/notes 500 630 - 2810.939 ms[39m
+2025-09-10 03:09:14:914 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 114.177 ms[39m
+2025-09-10 03:09:14:914 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 61.727 ms[39m
+2025-09-10 03:10:56:1056 [35mhttp[39m: [35mPOST /api/v1/notes 201 680 - 2967.160 ms[39m
+2025-09-10 03:10:56:1056 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 61.595 ms[39m
+2025-09-10 03:10:56:1056 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 1783 - 86.263 ms[39m
+2025-09-10 03:10:56:1056 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 59.987 ms[39m
+2025-09-10 03:10:56:1056 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 80.486 ms[39m
+2025-09-10 03:10:59:1059 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 200 680 - 98.041 ms[39m
+2025-09-10 03:10:59:1059 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 304 - - 80.873 ms[39m
+2025-09-10 03:11:37:1137 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 586 - 92.194 ms[39m
+2025-09-10 03:11:37:1137 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 80.027 ms[39m
+2025-09-10 03:11:40:1140 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 45.020 ms[39m
+2025-09-10 03:11:40:1140 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 43.828 ms[39m
+2025-09-10 03:11:40:1140 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 122.757 ms[39m
+2025-09-10 03:11:40:1140 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 120.063 ms[39m
+2025-09-10 03:12:39:1239 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 64.389 ms[39m
+2025-09-10 03:12:39:1239 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 62.734 ms[39m
+2025-09-10 03:12:39:1239 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 1107 - 81.169 ms[39m
+2025-09-10 03:12:39:1239 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 81.997 ms[39m
+2025-09-10 03:12:46:1246 [35mhttp[39m: [35mGET /api/v1/notes 200 1559 - 87.612 ms[39m
+2025-09-10 03:12:47:1247 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 80.748 ms[39m
+2025-09-10 03:12:56:1256 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 79.083 ms[39m
+2025-09-10 03:12:56:1256 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 77.832 ms[39m
+2025-09-10 03:12:58:1258 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 77.619 ms[39m
+2025-09-10 03:12:58:1258 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 84.438 ms[39m
+2025-09-10 03:13:58:1358 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 304 - - 79.093 ms[39m
+2025-09-10 03:13:58:1358 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 304 - - 79.340 ms[39m
+2025-09-10 03:14:04:144 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 79.060 ms[39m
+2025-09-10 03:14:04:144 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 78.538 ms[39m
+2025-09-10 03:14:07:147 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-10 03:14:07:147 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 944.813 ms[39m
+2025-09-10 03:33:58:3358 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 118.294 ms[39m
+2025-09-10 03:33:58:3358 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 40.137 ms[39m
+2025-09-10 03:33:58:3358 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 82.945 ms[39m
+2025-09-10 03:33:59:3359 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 73.587 ms[39m
+2025-09-10 03:34:26:3426 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 38.894 ms[39m
+2025-09-10 03:34:26:3426 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 38.765 ms[39m
+2025-09-10 03:34:26:3426 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.253 ms[39m
+2025-09-10 03:34:27:3427 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.205 ms[39m
+2025-09-10 03:34:39:3439 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 54.755 ms[39m
+2025-09-10 03:34:39:3439 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 50.577 ms[39m
+2025-09-10 03:34:39:3439 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 74.421 ms[39m
+2025-09-10 03:34:40:3440 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 73.953 ms[39m
+2025-09-10 03:34:41:3441 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 40.344 ms[39m
+2025-09-10 03:34:41:3441 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 39.452 ms[39m
+2025-09-10 03:34:41:3441 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.644 ms[39m
+2025-09-10 03:34:41:3441 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.071 ms[39m
+2025-09-10 03:35:22:3522 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.349 ms[39m
+2025-09-10 03:35:22:3522 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.686 ms[39m
+2025-09-10 03:35:25:3525 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 107.476 ms[39m
+2025-09-10 03:35:25:3525 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.993 ms[39m
+2025-09-10 03:35:29:3529 [35mhttp[39m: [35mPOST /api/v1/auth/logout 200 84 - 158.147 ms[39m
+2025-09-10 03:35:32:3532 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.141 ms[39m
+2025-09-10 03:35:32:3532 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.800 ms[39m
+2025-09-10 03:35:34:3534 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.947 ms[39m
+2025-09-10 03:35:34:3534 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.036 ms[39m
+2025-09-10 03:37:39:3739 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 101.579 ms[39m
+2025-09-10 03:37:39:3739 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.351 ms[39m
+2025-09-10 03:38:12:3812 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 101.243 ms[39m
+2025-09-10 03:38:12:3812 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 101.074 ms[39m
+2025-09-10 03:40:32:4032 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.175 ms[39m
+2025-09-10 03:40:32:4032 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 112.020 ms[39m
+2025-09-10 03:40:37:4037 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.413 ms[39m
+2025-09-10 03:40:37:4037 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.120 ms[39m
+2025-09-10 03:40:43:4043 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.340 ms[39m
+2025-09-10 03:40:43:4043 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.118 ms[39m
+2025-09-10 03:47:39:4739 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 03:47:39:4739 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 25.202 ms[39m
+2025-09-10 03:47:39:4739 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 03:47:39:4739 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 0.912 ms[39m
+2025-09-10 03:47:39:4739 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 108.679 ms[39m
+2025-09-10 03:47:40:4740 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 101.564 ms[39m
+2025-09-10 03:50:57:5057 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-10 03:50:57:5057 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 273 - 73.058 ms[39m
+2025-09-10 03:51:04:514 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-10 03:51:04:514 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 273 - 52.090 ms[39m
+2025-09-10 03:51:13:5113 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 411 - 343.060 ms[39m
+2025-09-10 03:51:13:5113 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 400 - 53.286 ms[39m
+2025-09-10 03:51:13:5113 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.693 ms[39m
+2025-09-10 03:51:13:5113 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.539 ms[39m
+2025-09-10 03:51:16:5116 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.652 ms[39m
+2025-09-10 03:51:16:5116 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 99.235 ms[39m
+2025-09-10 03:51:19:5119 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.266 ms[39m
+2025-09-10 03:51:19:5119 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.236 ms[39m
+2025-09-10 03:51:21:5121 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 100.852 ms[39m
+2025-09-10 03:51:21:5121 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 100.980 ms[39m
+2025-09-10 03:51:25:5125 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 37.469 ms[39m
+2025-09-10 03:51:25:5125 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 38.057 ms[39m
+2025-09-10 03:51:25:5125 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 1782 - 99.105 ms[39m
+2025-09-10 03:51:25:5125 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 100.355 ms[39m
+2025-09-10 03:55:30:5530 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 83.395 ms[39m
+2025-09-10 03:55:30:5530 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 51.597 ms[39m
+2025-09-10 03:55:30:5530 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 77.715 ms[39m
+2025-09-10 03:55:30:5530 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 74.462 ms[39m
+2025-09-10 03:55:33:5533 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 49.119 ms[39m
+2025-09-10 03:55:33:5533 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 73.647 ms[39m
+2025-09-10 03:55:33:5533 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 50.209 ms[39m
+2025-09-10 03:55:33:5533 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 73.297 ms[39m
+2025-09-10 03:55:55:5555 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 37.543 ms[39m
+2025-09-10 03:55:55:5555 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 37.234 ms[39m
+2025-09-10 03:55:55:5555 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 98.163 ms[39m
+2025-09-10 03:55:55:5555 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 99.692 ms[39m
+2025-09-10 03:56:07:567 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 103.630 ms[39m
+2025-09-10 03:56:08:568 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.704 ms[39m
+2025-09-10 03:56:11:5611 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.221 ms[39m
+2025-09-10 03:56:11:5611 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.836 ms[39m
+2025-09-10 04:02:18:218 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 143.994 ms[39m
+2025-09-10 04:02:18:218 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 101.942 ms[39m
+2025-09-10 04:02:19:219 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 37.810 ms[39m
+2025-09-10 04:02:19:219 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 37.801 ms[39m
+2025-09-10 04:02:19:219 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 100.760 ms[39m
+2025-09-10 04:02:19:219 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 99.926 ms[39m
+2025-09-11 01:08:07:87 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 01:08:07:87 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 19.569 ms[39m
+2025-09-11 01:08:07:87 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 01:08:07:87 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.127 ms[39m
+2025-09-11 01:08:07:87 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 122.965 ms[39m
+2025-09-11 01:08:08:88 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.451 ms[39m
+2025-09-11 01:08:13:813 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 101.948 ms[39m
+2025-09-11 01:08:13:813 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 103.068 ms[39m
+2025-09-11 01:08:19:819 [31merror[39m: [31m401 - Unauthorized request - /api/v1/orders - POST - ::1[39m
+2025-09-11 01:08:19:819 [35mhttp[39m: [35mPOST /api/v1/orders 401 1230 - 2.537 ms[39m
+2025-09-11 01:08:21:821 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 200 608 - 107.421 ms[39m
+2025-09-11 01:08:21:821 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 98.740 ms[39m
+2025-09-11 01:08:29:829 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 109.691 ms[39m
+2025-09-11 01:08:29:829 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.568 ms[39m
+2025-09-11 01:08:33:833 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.335 ms[39m
+2025-09-11 01:08:33:833 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 97.709 ms[39m
+2025-09-11 01:10:17:1017 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 411 - 369.781 ms[39m
+2025-09-11 01:10:18:1018 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 400 - 55.438 ms[39m
+2025-09-11 01:10:18:1018 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 100.680 ms[39m
+2025-09-11 01:10:18:1018 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.150 ms[39m
+2025-09-11 02:09:52:952 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 71.392 ms[39m
+2025-09-11 02:09:52:952 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 47.804 ms[39m
+2025-09-11 02:09:52:952 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.940 ms[39m
+2025-09-11 02:09:52:952 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 84.744 ms[39m
+2025-09-11 02:09:59:959 [35mhttp[39m: [35mPOST /api/v1/auth/logout 200 84 - 95.800 ms[39m
+2025-09-11 02:10:12:1012 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 90.874 ms[39m
+2025-09-11 02:10:12:1012 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 89.672 ms[39m
+2025-09-11 02:11:05:115 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:05:115 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 4.017 ms[39m
+2025-09-11 02:11:05:115 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:05:115 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.602 ms[39m
+2025-09-11 02:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:53:1153 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 4.084 ms[39m
+2025-09-11 02:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:53:1153 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.962 ms[39m
+2025-09-11 02:11:57:1157 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:57:1157 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.117 ms[39m
+2025-09-11 02:11:57:1157 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:57:1157 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.013 ms[39m
+2025-09-11 02:12:02:122 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:02:122 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.012 ms[39m
+2025-09-11 02:12:02:122 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:02:122 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.184 ms[39m
+2025-09-11 02:12:06:126 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:06:126 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 5.781 ms[39m
+2025-09-11 02:12:06:126 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:06:126 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.249 ms[39m
+2025-09-11 02:12:52:1252 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 86.427 ms[39m
+2025-09-11 02:12:53:1253 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 83.084 ms[39m
+2025-09-11 02:13:12:1312 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 82.432 ms[39m
+2025-09-11 02:13:12:1312 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 84.124 ms[39m
+2025-09-11 02:13:21:1321 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 83.083 ms[39m
+2025-09-11 02:13:21:1321 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 83.673 ms[39m
+2025-09-11 02:16:44:1644 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:16:44:1644 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 45.173 ms[39m
+2025-09-11 02:19:06:196 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:19:06:196 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 43.135 ms[39m
+2025-09-11 02:19:08:198 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:19:08:198 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 43.327 ms[39m
+2025-09-11 02:20:55:2055 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:20:55:2055 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 6.737 ms[39m
+2025-09-11 02:20:55:2055 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:20:55:2055 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 4.263 ms[39m
+2025-09-11 02:21:15:2115 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:21:15:2115 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 44.226 ms[39m
+2025-09-11 02:22:11:2211 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:22:11:2211 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 43.273 ms[39m
+2025-09-11 08:39:18:3918 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:39:18:3918 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 7.983 ms[39m
+2025-09-11 08:39:18:3918 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:39:19:3919 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.649 ms[39m
+2025-09-11 08:39:19:3919 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 109.972 ms[39m
+2025-09-11 08:39:19:3919 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 98.527 ms[39m
+2025-09-11 08:39:25:3925 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.138 ms[39m
+2025-09-11 08:39:25:3925 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 97.570 ms[39m
+2025-09-11 08:39:26:3926 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 97.392 ms[39m
+2025-09-11 08:39:26:3926 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 96.857 ms[39m
+2025-09-11 08:39:37:3937 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:39:37:3937 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 53.331 ms[39m
+2025-09-11 08:40:14:4014 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:40:14:4014 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 48.428 ms[39m
+2025-09-11 08:49:05:495 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:49:05:495 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 61.438 ms[39m
+2025-09-11 08:50:41:5041 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:50:41:5041 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 8.248 ms[39m
+2025-09-11 08:50:41:5041 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:50:41:5041 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.465 ms[39m
+2025-09-11 08:50:54:5054 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:50:54:5054 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 51.158 ms[39m
+2025-09-11 08:51:51:5151 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:51:51:5151 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 60.281 ms[39m
+2025-09-11 08:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:51:58:5158 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.832 ms[39m
+2025-09-11 08:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:51:58:5158 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.288 ms[39m
+2025-09-11 08:52:13:5213 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:52:13:5213 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 500 466 - 51.727 ms[39m
+2025-09-11 08:52:36:5236 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password - - - - ms[39m
+2025-09-11 08:52:36:5236 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:52:36:5236 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 5.368 ms[39m
+2025-09-11 08:52:36:5236 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:52:36:5236 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.217 ms[39m
+2025-09-11 08:52:53:5253 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 404 28 - 49.518 ms[39m
+2025-09-11 08:53:37:5337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:53:37:5337 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 5.016 ms[39m
+2025-09-11 08:53:37:5337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:53:37:5337 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.561 ms[39m
+2025-09-11 08:53:46:5346 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 3348.425 ms[39m
+2025-09-11 08:54:01:541 [35mhttp[39m: [35mGET /api/v1/auth/reset-password/8c03079f788a6f3e129a6d66f938c6d38258b42e 404 206 - 2.248 ms[39m
+2025-09-11 08:59:44:5944 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 2993.716 ms[39m
+2025-09-11 08:59:54:5954 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:59:54:5954 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.967 ms[39m
+2025-09-11 08:59:54:5954 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:59:54:5954 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.094 ms[39m
+2025-09-11 09:01:06:16 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/243c0c9f4652bdf3e8bdaf58e5e6c2ddfca8dd60 404 207 - 0.818 ms[39m
+2025-09-11 09:06:15:615 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/243c0c9f4652bdf3e8bdaf58e5e6c2ddfca8dd60 404 207 - 3.264 ms[39m
+2025-09-11 09:10:21:1021 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:10:21:1021 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 8.995 ms[39m
+2025-09-11 09:10:21:1021 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:10:21:1021 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.537 ms[39m
+2025-09-11 09:10:37:1037 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/243c0c9f4652bdf3e8bdaf58e5e6c2ddfca8dd60 404 207 - 0.842 ms[39m
+2025-09-11 09:15:28:1528 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:28:1528 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 5.196 ms[39m
+2025-09-11 09:15:28:1528 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:28:1528 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.799 ms[39m
+2025-09-11 09:15:47:1547 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 2807.311 ms[39m
+2025-09-11 09:15:57:1557 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:57:1557 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.824 ms[39m
+2025-09-11 09:15:57:1557 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:57:1557 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.859 ms[39m
+2025-09-11 09:16:25:1625 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/7040938ddc7563a5e419fb4bfba979eb1ca66fe6 404 207 - 0.997 ms[39m
+2025-09-11 09:17:44:1744 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/7040938ddc7563a5e419fb4bfba979eb1ca66fe6 404 207 - 0.640 ms[39m
+2025-09-11 09:18:31:1831 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:18:31:1831 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.292 ms[39m
+2025-09-11 09:18:31:1831 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:18:31:1831 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.034 ms[39m
+2025-09-11 09:18:38:1838 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/7040938ddc7563a5e419fb4bfba979eb1ca66fe6 404 207 - 0.378 ms[39m
+2025-09-11 09:19:13:1913 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:19:13:1913 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.462 ms[39m
+2025-09-11 09:19:13:1913 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:19:13:1913 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.324 ms[39m
+2025-09-11 09:19:22:1922 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/7040938ddc7563a5e419fb4bfba979eb1ca66fe6 404 207 - 0.409 ms[39m
+2025-09-11 09:22:55:2255 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:22:55:2255 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 4.574 ms[39m
+2025-09-11 09:22:55:2255 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:22:55:2255 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.619 ms[39m
+2025-09-11 09:24:52:2452 [35mhttp[39m: [35mPOST /api/v1/auth/reset-password/7040938ddc7563a5e419fb4bfba979eb1ca66fe6 404 207 - 0.527 ms[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 24.488 ms[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.719 ms[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 6.688 ms[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.066 ms[39m
+2025-09-11 09:27:40:2740 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 3520.081 ms[39m
+2025-09-11 09:27:51:2751 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:51:2751 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.726 ms[39m
+2025-09-11 09:27:51:2751 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:51:2751 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.325 ms[39m
+2025-09-11 09:27:57:2757 [35mhttp[39m: [35mPUT /api/v1/auth/reset-password/deb85e3c68d20cdc5587d5260fc6fad2533f321c 200 39 - 180.158 ms[39m
+2025-09-11 09:28:09:289 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-11 09:28:09:289 [35mhttp[39m: [35mPOST /api/v1/auth/login 401 190 - 108.874 ms[39m
+2025-09-11 09:28:17:2817 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 326 - 263.558 ms[39m
+2025-09-11 09:28:17:2817 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 315 - 51.226 ms[39m
+2025-09-11 09:28:17:2817 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 103.224 ms[39m
+2025-09-11 09:28:17:2817 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 97.568 ms[39m
+2025-09-11 09:28:25:2825 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 200 203 - 47.994 ms[39m
+2025-09-11 09:28:25:2825 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 91 - 85.555 ms[39m
+2025-09-11 09:28:25:2825 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 47.608 ms[39m
+2025-09-11 09:28:25:2825 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 86.134 ms[39m
+2025-09-11 09:29:09:299 [31merror[39m: [31m400 - All fields are required - /api/v1/auth/update-account - PATCH - ::1[39m
+2025-09-11 09:29:09:299 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 400 726 - 44.164 ms[39m
+2025-09-11 09:33:33:3333 [31merror[39m: [31m500 - user is not defined - /api/v1/auth/update-account - PATCH - ::1[39m
+2025-09-11 09:33:33:3333 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 500 283 - 118.942 ms[39m
+2025-09-11 09:34:50:3450 [35mhttp[39m: [35mPATCH /api/v1/auth/update-account 200 318 - 140.610 ms[39m
+2025-09-11 09:34:52:3452 [35mhttp[39m: [35mPATCH /api/v1/auth/update-avatar 200 415 - 2673.386 ms[39m
+2025-09-26 03:44:49:4449 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:44:49:4449 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 12.508 ms[39m
+2025-09-26 03:44:49:4449 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:44:49:4449 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.614 ms[39m
+2025-09-26 03:44:49:4449 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 1107 - 126.886 ms[39m
+2025-09-26 03:44:49:4449 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 109.895 ms[39m
+2025-09-26 03:44:57:4457 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 200 680 - 115.018 ms[39m
+2025-09-26 03:44:57:4457 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 304 - - 110.531 ms[39m
+2025-09-26 03:45:05:455 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 148.247 ms[39m
+2025-09-26 03:45:05:455 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 110.588 ms[39m
+2025-09-26 03:45:33:4533 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 3572.164 ms[39m
+2025-09-26 03:45:34:4534 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 2822.673 ms[39m
+2025-09-26 03:45:35:4535 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 2772.799 ms[39m
+2025-09-26 03:46:00:460 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:46:00:460 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 3.552 ms[39m
+2025-09-26 03:46:00:460 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:46:00:460 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.404 ms[39m
+2025-09-26 03:46:18:4618 [31merror[39m: [31m500 - User validation failed: password: Password must contain at least 8 characters, one uppercase, one lowercase, one number, and one special character - /api/v1/auth/reset-password/08a42e60869210f4d9b0b71b9ea450ab7c28061a - PUT - ::1[39m
+2025-09-26 03:46:18:4618 [35mhttp[39m: [35mPUT /api/v1/auth/reset-password/08a42e60869210f4d9b0b71b9ea450ab7c28061a 500 802 - 65.234 ms[39m
+2025-09-26 03:46:27:4627 [35mhttp[39m: [35mPUT /api/v1/auth/reset-password/08a42e60869210f4d9b0b71b9ea450ab7c28061a 200 39 - 264.901 ms[39m
+2025-09-26 03:46:38:4638 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 424 - 350.689 ms[39m
+2025-09-26 03:46:38:4638 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 413 - 58.698 ms[39m
+2025-09-26 03:46:39:4639 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 129.020 ms[39m
+2025-09-26 03:46:39:4639 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 118.671 ms[39m
+2025-09-26 03:46:45:4645 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 200 664 - 123.729 ms[39m
+2025-09-26 03:46:45:4645 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 110.383 ms[39m
+2025-09-26 03:46:57:4657 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.293 ms[39m
+2025-09-26 03:46:57:4657 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 107.535 ms[39m
+2025-09-26 03:47:06:476 [35mhttp[39m: [35mGET /api/v1/orders/purchased 200 92 - 109.791 ms[39m
+2025-09-26 03:47:06:476 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 112.300 ms[39m
+2025-09-26 03:47:09:479 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 200 301 - 53.002 ms[39m
+2025-09-26 03:47:09:479 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 91 - 91.625 ms[39m
+2025-09-26 03:47:09:479 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 52.259 ms[39m
+2025-09-26 03:47:09:479 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 92.129 ms[39m
+2025-09-26 03:47:30:4730 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 93.219 ms[39m
+2025-09-26 03:47:30:4730 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 92.969 ms[39m
+2025-09-26 03:47:36:4736 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 124.233 ms[39m
+2025-09-26 03:47:36:4736 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 108.730 ms[39m
+2025-09-26 03:47:39:4739 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 304 - - 95.888 ms[39m
+2025-09-26 03:47:39:4739 [35mhttp[39m: [35mGET /api/v1/notes/68c09ee8e368124e220c7ef0 304 - - 93.777 ms[39m
+2025-09-26 03:48:38:4838 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 109.805 ms[39m
+2025-09-26 03:48:38:4838 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 116.794 ms[39m
+2025-09-26 03:48:44:4844 [35mhttp[39m: [35mGET /api/v1/notes 200 1559 - 91.254 ms[39m
+2025-09-26 03:48:44:4844 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 93.385 ms[39m
+2025-09-26 03:48:54:4854 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 95.787 ms[39m
+2025-09-26 03:48:54:4854 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 96.070 ms[39m
+2025-09-26 03:48:56:4856 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 47.468 ms[39m
+2025-09-26 03:48:56:4856 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 46.828 ms[39m
+2025-09-26 03:48:56:4856 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 113.559 ms[39m
+2025-09-26 03:48:56:4856 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 113.835 ms[39m
+2025-09-26 03:49:00:490 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 107.605 ms[39m
+2025-09-26 03:49:00:490 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 109.317 ms[39m
+2025-09-26 04:09:14:914 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 100.136 ms[39m
+2025-09-26 04:09:14:914 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 63.496 ms[39m
+2025-09-26 04:09:14:914 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 133.502 ms[39m
+2025-09-26 04:09:14:914 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 114.867 ms[39m
+2025-09-26 04:09:15:915 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 58.938 ms[39m
+2025-09-26 04:09:15:915 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 59.103 ms[39m
+2025-09-26 04:09:15:915 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 117.017 ms[39m
+2025-09-26 04:09:15:915 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 111.302 ms[39m
+2025-09-26 04:09:19:919 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 112.947 ms[39m
+2025-09-26 04:09:19:919 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 111.951 ms[39m
+2025-09-26 04:09:25:925 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 120.517 ms[39m
+2025-09-26 04:09:25:925 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 117.567 ms[39m
+2025-09-26 04:09:27:927 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 115.498 ms[39m
+2025-09-26 04:09:28:928 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 109.336 ms[39m
+2025-09-26 04:09:41:941 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 123.744 ms[39m
+2025-09-26 04:09:41:941 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 116.575 ms[39m
+2025-09-26 04:09:44:944 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 04:09:44:944 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 1364.757 ms[39m
+2025-09-26 04:17:56:1756 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 208.780 ms[39m
+2025-09-26 04:17:56:1756 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 63.484 ms[39m
+2025-09-26 04:17:56:1756 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 116.767 ms[39m
+2025-09-26 04:17:56:1756 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 91.070 ms[39m
+2025-09-26 04:17:59:1759 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 200 674 - 93.627 ms[39m
+2025-09-26 04:18:00:180 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 94.720 ms[39m
+2025-09-26 04:18:14:1814 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 91.853 ms[39m
+2025-09-26 04:18:14:1814 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 97.287 ms[39m
+2025-09-26 04:22:16:2216 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 93.015 ms[39m
+2025-09-26 04:22:16:2216 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 64.822 ms[39m
+2025-09-26 04:22:16:2216 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 134.533 ms[39m
+2025-09-26 04:22:16:2216 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 112.586 ms[39m
+2025-09-26 04:22:18:2218 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 113.031 ms[39m
+2025-09-26 04:22:18:2218 [35mhttp[39m: [35mGET /api/v1/notes/68c0993d929e1e04d78a45bb 304 - - 114.612 ms[39m
+2025-09-26 04:31:11:3111 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 186.036 ms[39m
+2025-09-26 04:31:12:3112 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 113.130 ms[39m
+2025-09-26 04:31:18:3118 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 110.603 ms[39m
+2025-09-26 04:31:18:3118 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 114.515 ms[39m
+2025-09-26 04:31:22:3122 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 200 618 - 118.841 ms[39m
+2025-09-26 04:31:22:3122 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 113.353 ms[39m
+2025-09-26 04:37:00:370 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 109.203 ms[39m
+2025-09-26 04:37:00:370 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 63.738 ms[39m
+2025-09-26 04:37:00:370 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 112.480 ms[39m
+2025-09-26 04:37:01:371 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 98.981 ms[39m
+2025-09-26 04:37:01:371 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 100.433 ms[39m
+2025-09-26 04:37:02:372 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 106.503 ms[39m
+2025-09-26 04:37:04:374 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 100.681 ms[39m
+2025-09-26 04:37:04:374 [35mhttp[39m: [35mGET /api/v1/notes/68c09c0ab484f872c6a88814 304 - - 94.703 ms[39m
+2025-09-26 04:46:31:4631 [35mhttp[39m: [35mGET /api/v1/notes 200 82 - 80.984 ms[39m
+2025-09-26 04:46:31:4631 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 55.604 ms[39m
+2025-09-26 05:02:52:252 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:02:52:252 [35mhttp[39m: [35mPOST /api/v1/notes 400 1295 - 48.933 ms[39m
+2025-09-26 05:03:03:33 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:03:33 [35mhttp[39m: [35mPOST /api/v1/notes 400 1295 - 3.662 ms[39m
+2025-09-26 05:03:20:320 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:20:320 [35mhttp[39m: [35mPOST /api/v1/notes 400 1295 - 4.816 ms[39m
+2025-09-26 05:03:23:323 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:23:323 [35mhttp[39m: [35mPOST /api/v1/notes 400 1295 - 2.068 ms[39m
+2025-09-26 05:03:36:336 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 05:03:36:336 [35mhttp[39m: [35mGET /api/v1/auth/current-user 400 1295 - 3.901 ms[39m
+2025-09-26 05:03:36:336 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 05:03:36:336 [35mhttp[39m: [35mGET /api/v1/auth/current-user 400 1295 - 2.336 ms[39m
+2025-09-26 05:03:46:346 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 424 - 392.916 ms[39m
+2025-09-26 05:03:46:346 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 413 - 56.081 ms[39m
+2025-09-26 05:04:56:456 [35mhttp[39m: [35mPOST /api/v1/notes 201 677 - 5139.819 ms[39m
+2025-09-26 05:04:56:456 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 55.256 ms[39m
+2025-09-26 05:04:56:456 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 681 - 111.695 ms[39m
+2025-09-26 05:04:56:456 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 52.954 ms[39m
+2025-09-26 05:04:57:457 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 103.430 ms[39m
+2025-09-26 05:05:00:50 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1a0bc96713d67b5af48 200 718 - 112.538 ms[39m
+2025-09-26 05:05:01:51 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1a0bc96713d67b5af48 304 - - 100.833 ms[39m
+2025-09-26 05:05:15:515 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 49.973 ms[39m
+2025-09-26 05:05:15:515 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 50.671 ms[39m
+2025-09-26 05:05:15:515 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 104.644 ms[39m
+2025-09-26 05:05:15:515 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 114.100 ms[39m
+2025-09-26 05:05:20:520 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1a0bc96713d67b5af48 304 - - 106.744 ms[39m
+2025-09-26 05:05:20:520 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1a0bc96713d67b5af48 304 - - 113.485 ms[39m
+2025-09-26 05:05:22:522 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 53.411 ms[39m
+2025-09-26 05:05:22:522 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 100.022 ms[39m
+2025-09-26 05:05:22:522 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 52.914 ms[39m
+2025-09-26 05:05:22:522 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 101.092 ms[39m
+2025-09-26 05:05:26:526 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 82 - 50.525 ms[39m
+2025-09-26 05:05:26:526 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 51.697 ms[39m
+2025-09-26 05:05:28:528 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 52.734 ms[39m
+2025-09-26 05:05:29:529 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 51.102 ms[39m
+2025-09-26 05:05:29:529 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 53.121 ms[39m
+2025-09-26 05:05:29:529 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 52.539 ms[39m
+2025-09-26 05:05:31:531 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 53.736 ms[39m
+2025-09-26 05:05:31:531 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 54.493 ms[39m
+2025-09-26 05:05:31:531 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.530 ms[39m
+2025-09-26 05:05:31:531 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 49.765 ms[39m
+2025-09-26 05:05:34:534 [35mhttp[39m: [35mGET /api/v1/notes 200 589 - 99.395 ms[39m
+2025-09-26 05:05:35:535 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 98.531 ms[39m
+2025-09-26 05:05:38:538 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1a0bc96713d67b5af48 304 - - 98.945 ms[39m
+2025-09-26 05:05:38:538 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1a0bc96713d67b5af48 304 - - 100.793 ms[39m
+2025-09-26 05:06:22:622 [35mhttp[39m: [35mPOST /api/v1/notes 201 578 - 4640.430 ms[39m
+2025-09-26 05:06:22:622 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 50.603 ms[39m
+2025-09-26 05:06:22:622 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 50.113 ms[39m
+2025-09-26 05:06:22:622 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 1173 - 106.518 ms[39m
+2025-09-26 05:06:22:622 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 106.564 ms[39m
+2025-09-26 05:06:27:627 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:06:27:627 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 1134.190 ms[39m
+2025-09-26 05:06:30:630 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1f6bc96713d67b5af77 200 619 - 107.809 ms[39m
+2025-09-26 05:06:30:630 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1f6bc96713d67b5af77 304 - - 105.052 ms[39m
+2025-09-26 05:06:43:643 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 51.066 ms[39m
+2025-09-26 05:06:43:643 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 97.584 ms[39m
+2025-09-26 05:06:43:643 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 52.432 ms[39m
+2025-09-26 05:06:43:643 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 98.452 ms[39m
+2025-09-26 05:07:09:79 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 54.142 ms[39m
+2025-09-26 05:07:09:79 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 50.692 ms[39m
+2025-09-26 05:07:09:79 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 53.750 ms[39m
+2025-09-26 05:07:09:79 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 1172 - 107.329 ms[39m
+2025-09-26 05:07:09:79 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 56.650 ms[39m
+2025-09-26 05:07:09:79 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 105.141 ms[39m
+2025-09-26 05:07:11:711 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 489 - 105.914 ms[39m
+2025-09-26 05:07:11:711 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.066 ms[39m
+2025-09-26 05:10:53:1053 [35mhttp[39m: [35mPOST /api/v1/notes 201 636 - 4908.545 ms[39m
+2025-09-26 05:10:53:1053 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 50.703 ms[39m
+2025-09-26 05:10:53:1053 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 50.146 ms[39m
+2025-09-26 05:10:53:1053 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 1722 - 104.817 ms[39m
+2025-09-26 05:10:53:1053 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 107.817 ms[39m
+2025-09-26 05:11:10:1110 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 955 - 106.101 ms[39m
+2025-09-26 05:11:11:1111 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 106.947 ms[39m
+2025-09-26 05:11:15:1115 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 200 677 - 106.104 ms[39m
+2025-09-26 05:11:15:1115 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 106.073 ms[39m
+2025-09-26 05:21:53:2153 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 72.159 ms[39m
+2025-09-26 05:21:53:2153 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 200 1721 - 114.264 ms[39m
+2025-09-26 05:21:53:2153 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard_demon_slayer 304 - - 52.170 ms[39m
+2025-09-26 05:21:53:2153 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard_demon_slayer 304 - - 112.186 ms[39m
+2025-09-26 05:21:55:2155 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 113.290 ms[39m
+2025-09-26 05:21:55:2155 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 107.356 ms[39m
+2025-09-26 05:25:43:2543 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 78.781 ms[39m
+2025-09-26 05:25:43:2543 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 62.893 ms[39m
+2025-09-26 05:25:43:2543 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 131.431 ms[39m
+2025-09-26 05:25:43:2543 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 104.980 ms[39m
+2025-09-26 05:33:17:3317 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 85.887 ms[39m
+2025-09-26 05:33:17:3317 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 54.216 ms[39m
+2025-09-26 05:33:17:3317 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 98.694 ms[39m
+2025-09-26 05:33:17:3317 [35mhttp[39m: [35mGET /api/v1/notes/68d5d304bc96713d67b5af98 304 - - 91.098 ms[39m
+2025-09-26 05:33:23:3323 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 97.056 ms[39m
+2025-09-26 05:33:23:3323 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 90.358 ms[39m
+2025-09-26 05:33:27:3327 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:33:27:3327 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 500.028 ms[39m
+2025-09-26 05:34:15:3415 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:34:15:3415 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 443.865 ms[39m
+2025-09-26 05:38:52:3852 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:38:52:3852 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 569.687 ms[39m
+2025-09-26 05:39:55:3955 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:39:55:3955 [35mhttp[39m: [35mPOST /api/v1/orders 500 428 - 490.643 ms[39m
+2025-09-26 05:41:42:4142 [35mhttp[39m: [35mPOST /api/v1/orders 200 607 - 554.627 ms[39m
+2025-09-26 05:45:21:4521 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 64.321 ms[39m
+2025-09-26 05:45:21:4521 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 54.085 ms[39m
+2025-09-26 05:45:21:4521 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 99.117 ms[39m
+2025-09-26 05:45:21:4521 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 89.164 ms[39m
+2025-09-26 05:45:31:4531 [35mhttp[39m: [35mPOST /api/v1/orders 200 607 - 512.820 ms[39m
+2025-09-26 05:47:37:4737 [35mhttp[39m: [35mPOST /api/v1/orders/verify 200 85 - 140.777 ms[39m
+2025-09-26 05:47:37:4737 [35mhttp[39m: [35mGET /api/v1/orders/purchased 200 407 - 140.452 ms[39m
+2025-09-26 05:47:37:4737 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 134.930 ms[39m
+2025-09-26 05:47:48:4748 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1f6bc96713d67b5af77 304 - - 101.997 ms[39m
+2025-09-26 05:47:48:4748 [35mhttp[39m: [35mGET /api/v1/notes/68d5d1f6bc96713d67b5af77 304 - - 89.385 ms[39m
+2025-09-26 05:48:53:4853 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 135.339 ms[39m
+2025-09-26 05:48:53:4853 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 136.250 ms[39m
+2025-09-26 05:49:01:491 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 89.423 ms[39m
+2025-09-26 05:49:01:491 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 89.740 ms[39m
+2025-09-26 05:49:32:4932 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 47.002 ms[39m
+2025-09-26 05:49:32:4932 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 45.246 ms[39m
+2025-09-26 05:49:32:4932 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 1464 - 104.593 ms[39m
+2025-09-26 05:49:32:4932 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 114.139 ms[39m
+2025-09-26 05:49:41:4941 [35mhttp[39m: [35mPOST /api/v1/orders 200 607 - 575.743 ms[39m
+2025-09-26 05:51:04:514 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.662 ms[39m
+2025-09-26 05:51:04:514 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 107.296 ms[39m
+2025-09-26 05:51:08:518 [35mhttp[39m: [35mGET /api/v1/notes 200 1464 - 106.098 ms[39m
+2025-09-26 05:51:09:519 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 105.846 ms[39m
+2025-09-26 05:51:12:5112 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 104.956 ms[39m
+2025-09-26 05:51:12:5112 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 105.078 ms[39m
+2025-09-26 05:51:15:5115 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 104.938 ms[39m
+2025-09-26 05:51:15:5115 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 105.569 ms[39m
+2025-09-26 05:51:17:5117 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 161.595 ms[39m
+2025-09-26 05:51:17:5117 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 160.445 ms[39m
+2025-09-26 22:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:11:53:1153 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 14.192 ms[39m
+2025-09-26 22:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:11:53:1153 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.771 ms[39m
+2025-09-26 22:11:53:1153 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 198.099 ms[39m
+2025-09-26 22:11:54:1154 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 113.931 ms[39m
+2025-09-26 22:13:16:1316 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 3372.632 ms[39m
+2025-09-26 22:13:18:1318 [35mhttp[39m: [35mPOST /api/v1/auth/forgot-password 200 38 - 3003.980 ms[39m
+2025-09-26 22:13:38:1338 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:13:38:1338 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 4.022 ms[39m
+2025-09-26 22:13:38:1338 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:13:38:1338 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 1.759 ms[39m
+2025-09-26 22:13:51:1351 [35mhttp[39m: [35mPUT /api/v1/auth/reset-password/1284dcd58d617e514327e6a8c9b9b3b5461881d8 400 38 - 58.098 ms[39m
+2025-09-26 22:14:01:141 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:14:01:141 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.142 ms[39m
+2025-09-26 22:14:02:142 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:14:02:142 [35mhttp[39m: [35mGET /api/v1/auth/current-user 401 1235 - 2.282 ms[39m
+2025-09-26 22:14:06:146 [35mhttp[39m: [35mPUT /api/v1/auth/reset-password/040f5454db1e192b58c07cf37df937d3f7dccffe 200 39 - 262.582 ms[39m
+2025-09-26 22:14:25:1425 [35mhttp[39m: [35mPOST /api/v1/auth/login 200 411 - 354.482 ms[39m
+2025-09-26 22:14:25:1425 [35mhttp[39m: [35mGET /api/v1/auth/current-user 200 400 - 61.605 ms[39m
+2025-09-26 22:14:25:1425 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 200 1464 - 114.238 ms[39m
+2025-09-26 22:14:25:1425 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 112.070 ms[39m
+2025-09-26 22:14:40:1440 [35mhttp[39m: [35mGET /api/v1/notes 200 1464 - 113.578 ms[39m
+2025-09-26 22:14:40:1440 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 114.491 ms[39m
+2025-09-26 22:15:00:150 [35mhttp[39m: [35mGET /api/v1/orders/purchased 200 92 - 121.829 ms[39m
+2025-09-26 22:15:00:150 [35mhttp[39m: [35mGET /api/v1/orders/purchased 304 - - 117.622 ms[39m
+2025-09-26 22:15:06:156 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 200 288 - 57.884 ms[39m
+2025-09-26 22:15:06:156 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 200 91 - 108.671 ms[39m
+2025-09-26 22:15:06:156 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 62.246 ms[39m
+2025-09-26 22:15:06:156 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 108.170 ms[39m
+2025-09-26 22:15:29:1529 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 57.574 ms[39m
+2025-09-26 22:15:29:1529 [35mhttp[39m: [35mGET /api/v1/auth/current-user 304 - - 62.166 ms[39m
+2025-09-26 22:15:29:1529 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 57.740 ms[39m
+2025-09-26 22:15:29:1529 [35mhttp[39m: [35mGET /api/v1/auth/shubh_wizard 304 - - 56.880 ms[39m
+2025-09-26 22:15:29:1529 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 118.311 ms[39m
+2025-09-26 22:15:29:1529 [35mhttp[39m: [35mGET /api/v1/notes/uploaded/shubh_wizard 304 - - 111.626 ms[39m
+2025-09-26 22:15:35:1535 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 112.675 ms[39m
+2025-09-26 22:15:36:1536 [35mhttp[39m: [35mGET /api/v1/notes 304 - - 142.577 ms[39m
+2025-09-26 22:15:37:1537 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 114.131 ms[39m
+2025-09-26 22:15:37:1537 [35mhttp[39m: [35mGET /api/v1/notes?isFeatured=true 304 - - 112.737 ms[39m
+2025-09-26 22:18:32:1832 [35mhttp[39m: [35mPOST /api/v1/orders 200 607 - 1741.063 ms[39m
+2025-09-26 22:26:45:2645 [35mhttp[39m: [35mPOST /api/v1/auth/logout 200 84 - 178.356 ms[39m

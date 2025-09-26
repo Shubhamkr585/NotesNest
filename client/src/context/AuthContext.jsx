@@ -1,58 +1,60 @@
-// File: src/context/AuthContext.jsx
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect, useContext } from 'react';
 import { getCurrentUser, logout as apiLogout } from '../services/api';
+import Spinner from '../components/common/Spinner';
 
 export const AuthContext = createContext();
 
+export const useAuth = () => {
+  return useContext(AuthContext);
+};
+
 export const AuthProvider = ({ children }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(null);
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const checkAuth = async () => {
-    if (!document.cookie.includes('refreshToken')) {
-      setIsAuthenticated(false);
-      setUser(null);
-      setLoading(false);
-      return false;
-    }
+  const refetchUser = async () => {
+    setLoading(true);
     try {
-      const res = await getCurrentUser();
-      setIsAuthenticated(true);
-      setUser(res.data);
-      return true;
-    } catch (err) {
-      setIsAuthenticated(false);
+      const response = await getCurrentUser();
+      setUser(response.data);
+    } catch (error) {
       setUser(null);
-      return false;
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    checkAuth();
+    refetchUser();
   }, []);
-
-  const login = (response) => {
-    setIsAuthenticated(true);
-    setUser(response.user);
-    setLoading(false);
-  };
 
   const logout = async () => {
     try {
       await apiLogout();
-      setIsAuthenticated(false);
       setUser(null);
-      setLoading(false);
     } catch (err) {
-      console.error(err);
+      console.error("Logout failed:", err);
     }
   };
+  
+  const value = {
+    user,
+    isAuthenticated: !!user,
+    loading,
+    refetchUser,
+    logout,
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen w-full flex items-center justify-center bg-gray-900">
+        <Spinner />
+      </div>
+    );
+  }
 
   return (
-    <AuthContext.Provider value={{ isAuthenticated, user, login, logout, loading, checkAuth }}>
+    <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   );

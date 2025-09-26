@@ -1,61 +1,70 @@
-import express from "express";
-import cors from "cors";
-import dotenv from "dotenv";
-import  connectDB  from "./db/connection.js";
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import errorMiddleware from "./middlewares/errorMiddleware.js";
+import connectDB from './db/connection.js';
+import errorMiddleware from './middlewares/error.middleware.js';
+import morganMiddleware from './middlewares/morgan.middleware.js';
+import rateLimit from 'express-rate-limit';
+
+// Route imports
 import authRoutes from './routes/auth.routes.js';
 import noteRoutes from './routes/note.routes.js';
 import orderRoutes from './routes/order.routes.js';
 import viewRoutes from './routes/view.routes.js';
-import rateLimit from 'express-rate-limit';
-import morganMiddleware from "./middlewares/morganMiddleware.js";
 
 dotenv.config();
 
-const PORT = process.env.PORT || 5050;
 const app = express();
+const PORT = process.env.PORT || 5000;
 
-// Connect to the database
-connectDB();
-
-// Middleware
+// Middleware setup
 app.use(cors({
-  origin: process.env.CLIENT_URL,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  credentials: true
-}));
+    origin: process.env.CLIENT_URL,
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
 
-app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
+}));
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true, limit: '16kb' }));
+app.use(express.static('public'));
 app.use(cookieParser());
 app.use(morganMiddleware);
 
-// Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/notes', noteRoutes);
-app.use('/api/orders', orderRoutes);
-app.use('/api/views', viewRoutes);
+// Rate Limiting
+const limiter = rateLimit({
+	windowMs: 15 * 60 * 1000, // 15 minutes
+	max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+	standardHeaders: true,
+	legacyHeaders: false,
+});
+app.use(limiter);
 
+// API Routes
 
+app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/notes', noteRoutes);
+app.use('/api/v1/orders', orderRoutes);
+app.use('/api/v1/views', viewRoutes);
 
-// Error-handling middleware
+//test->/api/maje
+app.get('/api/maje', (req, res) => {
+    console.log('maje');
+    res.status(200).json({ message: 'Hello from the server!' });
+});
+
+// Error handling middleware
 app.use(errorMiddleware);
 
-
-// start the Express server
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
-// app.listen(5000, '0.0.0.0', () => {
-//   console.log('Server running on port 5000');
-// });
-
-
-
-
-
-
-
-
+// Connect to DB and start server
+connectDB()
+    .then(() => {
+        app.listen(PORT, () => {
+            console.log(`🚀 Server is running at http://localhost:${PORT}`);
+        });
+    })
+    .catch((err) => {
+        console.error("MongoDB connection failed!", err);
+        process.exit(1);
+    });

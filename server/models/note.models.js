@@ -1,17 +1,44 @@
 import mongoose from 'mongoose';
 
 const noteSchema = new mongoose.Schema({
-  title: { type: String, required: true },
-  description: { type: String },
-  category: { type: String, enum: ['JEE', 'UPSC'], required: true },
-  price: { type: Number, default: 0 },
-  fileUrl: { type: String, required: true },
-  coverImageUrl: { type: String }, // ✅ NEW FIELD for image URL
-  uploadedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-  isFeatured: { type: Boolean, default: false },
-  createdAt: { type: Date, default: Date.now },
-});
+  title: {
+     type: String, 
+     required: true 
+  },
+  description: {
+     type: String 
+    },
+  category: {
+     type: String, 
+     enum: ['JEE', 'UPSC', 'NEET'], 
+     required: true 
+    },
+  price: {
+     type: Number, 
+     default: 0 
+    },
+  fileUrl: {
+     type: String, 
+     required: true 
+    },
+  public_id: {
+     type: String,
+     required: true
+    },
+  coverImageUrl: {
+     type: String 
+    },
+  uploadedBy: {
+     type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true 
+    },
+  isFeatured: {
+     type: Boolean, 
+     default: false 
+    },
+    
 
-noteSchema.index({ category: 1, title: 1, isFeatured: 1 });
+}, { timestamps: true });
 
-export const Note = mongoose.model('Note', noteSchema);
+export const Note = mongoose.model('Note', noteSchema);     

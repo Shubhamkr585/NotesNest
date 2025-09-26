@@ -6,6 +6,4 @@ const viewHistorySchema = new mongoose.Schema({
   viewedAt: { type: Date, default: Date.now },
 });
 
-viewHistorySchema.index({ user: 1, note: 1 });
-
 export const ViewHistory = mongoose.model('ViewHistory', viewHistorySchema);

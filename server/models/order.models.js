@@ -6,9 +6,7 @@ const orderSchema = new mongoose.Schema({
   amount: { type: Number, required: true },
   status: { type: String, enum: ['pending', 'completed', 'failed'], default: 'pending' },
   razorpayOrderId: { type: String },
-  createdAt: { type: Date, default: Date.now },
-});
-
-orderSchema.index({ buyer: 1, status: 1 });
+  razorpayPaymentId: { type: String },
+}, { timestamps: true });
 
 export const Order = mongoose.model('Order', orderSchema);

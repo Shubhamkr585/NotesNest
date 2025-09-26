@@ -1,0 +1,172 @@
+2025-08-24 05:02:19:219 [31merror[39m: [31m404 - User not found - /api/auth/login - GET - ::1[39m
+2025-08-24 05:14:59:1459 [31merror[39m: [31m404 - User not found - /api/auth/login - GET - ::1[39m
+2025-08-24 05:16:08:168 [31merror[39m: [31m404 - User not found - /api/auth/login - GET - ::1[39m
+2025-08-24 05:41:18:4118 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:43:42:4342 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.webp' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 05:44:07:447 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 05:47:47:4747 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:52:4752 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:53:4753 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:54:4754 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:55:4755 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:56:4756 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:57:4757 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 05:47:58:4758 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:03:00:30 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:03:05:35 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:03:08:38 [31merror[39m: [31m400 - Internal Server Error - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:07:47:747 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:07:56:756 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:08:11:811 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:15:20:1520 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:24:07:247 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:26:24:2624 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:27:08:278 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:27:15:2715 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:34:45:3445 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997485466-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:03:353 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997503010-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:04:354 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997504253-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:05:355 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997505275-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:06:356 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997506218-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:35:07:357 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755997507108-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 06:37:22:3722 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-08-24 06:42:51:4251 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:42:51:4251 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:43:37:4337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 06:43:37:4337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m404 - Note not found - /api/v1/notes/685f257a9899a34384ccafc3 - GET - ::1[39m
+2025-08-24 07:03:52:352 [31merror[39m: [31m404 - Note not found - /api/v1/notes/685f257a9899a34384ccafc3 - GET - ::1[39m
+2025-08-24 07:13:02:132 [31merror[39m: [31m500 - ENOENT: no such file or directory, open 'C:\Users\BIT\OneDrive\Desktop\NOTESVERSION2\server\public\temp\1755999782067-shubham.png' - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/notes/uploaded/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/auth/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/auth/shubh_wizard - GET - ::1[39m
+2025-08-24 07:19:07:197 [31merror[39m: [31m404 - User not found - /api/v1/notes/uploaded/shubh_wizard - GET - ::1[39m
+2025-09-01 06:22:46:2246 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-01 06:22:46:2246 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-01 06:23:01:231 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:23:07:237 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:23:58:2358 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:24:05:245 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:24:11:2411 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-01 06:47:17:4717 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:47:45:4745 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::ffff:127.0.0.1[39m
+2025-09-01 06:47:52:4752 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:48:03:483 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:50:38:5038 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:50:49:5049 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-01 06:56:43:5643 [31merror[39m: [31m500 - File upload failed - /api/v1/notes - POST - ::1[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 01:52:35:5235 [31merror[39m: [31m409 - User with email or username already exists - /api/v1/auth/register - POST - ::1[39m
+2025-09-10 01:53:53:5353 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:00:540 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:01:541 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:02:542 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:54:20:5420 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 01:57:38:5738 [31merror[39m: [31m500 - Avatar upload failed - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:13:04:134 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:13:49:1349 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:15:59:1559 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:17:33:1733 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:17:54:1754 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:19:03:193 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:24:23:2423 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:25:15:2515 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:27:38:2738 [31merror[39m: [31m500 - Cannot read properties of null (reading 'error') - /api/v1/auth/update-avatar - PATCH - ::1[39m
+2025-09-10 02:36:06:366 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-10 02:56:26:5626 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-10 02:56:36:5636 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-10 02:56:51:5651 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 02:56:51:5651 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 03:02:29:229 [31merror[39m: [31m500 - Note validation failed: fileUrl: Path `fileUrl` is required. - /api/v1/notes - POST - ::1[39m
+2025-09-10 03:14:07:147 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-10 03:47:39:4739 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 03:47:39:4739 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-10 03:50:57:5057 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-10 03:51:04:514 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-11 01:08:07:87 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 01:08:07:87 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 01:08:19:819 [31merror[39m: [31m401 - Unauthorized request - /api/v1/orders - POST - ::1[39m
+2025-09-11 02:11:05:115 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:05:115 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:57:1157 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:11:57:1157 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:02:122 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:02:122 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:06:126 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:12:06:126 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:16:44:1644 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:19:06:196 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:19:08:198 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:20:55:2055 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:20:55:2055 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 02:21:15:2115 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 02:22:11:2211 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:39:18:3918 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:39:18:3918 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:39:37:3937 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:40:14:4014 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:49:05:495 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:50:41:5041 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:50:41:5041 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:50:54:5054 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:51:51:5151 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:51:58:5158 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:52:13:5213 [31merror[39m: [31m500 - crypto.randomBytes is not a function - /api/v1/auth/forgot-password - POST - ::1[39m
+2025-09-11 08:52:36:5236 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:52:36:5236 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:53:37:5337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:53:37:5337 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:59:54:5954 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 08:59:54:5954 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:10:21:1021 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:10:21:1021 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:28:1528 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:28:1528 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:57:1557 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:15:57:1557 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:18:31:1831 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:18:31:1831 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:19:13:1913 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:19:13:1913 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:22:55:2255 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:22:55:2255 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:05:275 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:51:2751 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:27:51:2751 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-11 09:28:09:289 [31merror[39m: [31m401 - Invalid credentials - /api/v1/auth/login - POST - ::1[39m
+2025-09-11 09:29:09:299 [31merror[39m: [31m400 - All fields are required - /api/v1/auth/update-account - PATCH - ::1[39m
+2025-09-11 09:33:33:3333 [31merror[39m: [31m500 - user is not defined - /api/v1/auth/update-account - PATCH - ::1[39m
+2025-09-26 03:44:49:4449 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:44:49:4449 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:46:00:460 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:46:00:460 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 03:46:18:4618 [31merror[39m: [31m500 - User validation failed: password: Password must contain at least 8 characters, one uppercase, one lowercase, one number, and one special character - /api/v1/auth/reset-password/08a42e60869210f4d9b0b71b9ea450ab7c28061a - PUT - ::1[39m
+2025-09-26 04:09:44:944 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:02:52:252 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:03:33 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:20:320 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:23:323 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/notes - POST - ::1[39m
+2025-09-26 05:03:36:336 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 05:03:36:336 [31merror[39m: [31m400 - JSON Web Token is expired. Try again! - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 05:06:27:627 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:33:27:3327 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:34:15:3415 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:38:52:3852 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 05:39:55:3955 [31merror[39m: [31m500 - Failed to create payment order with Razorpay. Please check server logs and Razorpay credentials. - /api/v1/orders - POST - ::1[39m
+2025-09-26 22:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:11:53:1153 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:13:38:1338 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:13:38:1338 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:14:01:141 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m
+2025-09-26 22:14:02:142 [31merror[39m: [31m401 - Unauthorized request - /api/v1/auth/current-user - GET - ::1[39m

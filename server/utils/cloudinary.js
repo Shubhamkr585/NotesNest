@@ -1,59 +1,44 @@
-import { v2 as cloudinary } from 'cloudinary';
-import fs from 'fs';
-import dotenv from 'dotenv';
+import { v2 as cloudinary } from "cloudinary";
+import dotenv from "dotenv";
+import fs from "fs";
 
 dotenv.config();
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_SECRET_KEY
+  api_secret: process.env.CLOUDINARY_SECRET_KEY,
 });
 
-// Upload file to Cloudinary
-const uploadOnCloudinary = async (filelocalpath) => {
+const uploadOnCloudinary = async (localFilePath) => {
   try {
-    if (!filelocalpath) {
-      console.error("No file path received for upload.");
-      return null;
-    }
+    if (!localFilePath) return null;
 
-    console.log("Uploading file at:", filelocalpath);
-    const result = await cloudinary.uploader.upload(filelocalpath, {
-      resource_type: "auto",
+    const isPdf = localFilePath.endsWith('.pdf');
+
+    const result = await cloudinary.uploader.upload(localFilePath, {
+      // Explicitly set resource_type for PDFs to ensure correct URL generation
+      resource_type: isPdf ? "raw" : "auto",
     });
 
-    console.log("The file has been uploaded:", result);
+    // delete local file only after upload success
+    fs.unlinkSync(localFilePath);
 
-    fs.unlinkSync(filelocalpath); // Clean up temp file
-    return result;
-  } catch (err) {
-    console.error("Cloudinary upload error:", err);
-    if (fs.existsSync(filelocalpath)) {
-      fs.unlinkSync(filelocalpath);
-    }
+    // return a clean object with consistent field names
+    return {
+      url: result.secure_url,         // ✅ always use `url`
+      public_id: result.public_id,
+      format: result.format,
+      resource_type: result.resource_type,
+    };
+  } catch (error) {
+    console.error("Cloudinary upload error:", error);
     return null;
+  } finally {
+    if (fs.existsSync(localFilePath)) {
+      fs.unlinkSync(localFilePath);   // cleanup if failed
+    }
   }
 };
 
-// Delete file from Cloudinary using public_id
-const deleteFromCloudinary = async (publicId) => {
-  try {
-    if (!publicId) {
-      console.error("No publicId provided for deletion.");
-      return null;
-    }
-
-    const result = await cloudinary.uploader.destroy(publicId, {
-      resource_type: "image" // or "video" or "raw" depending on the type
-    });
-
-    console.log("Cloudinary file deleted:", result);
-    return result;
-  } catch (err) {
-    console.error("Cloudinary delete error:", err);
-    return null;
-  }
-};
-
-export { uploadOnCloudinary, deleteFromCloudinary };
+export { uploadOnCloudinary, cloudinary };

@@ -1,46 +1,57 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home.jsx';
-import Register from './components/Register.jsx';
-import Login from './components/Login.jsx';
-import UploadNote from './components/UploadNote.jsx';
-import NotesList from './components/NotesList.jsx';
-import ViewNote from './components/ViewNote.jsx';
-import PublicProfile from './components/PublicProfile.jsx';
-import PurchasedNotes from './components/PurchasedNotes.jsx';
-import Layout from './components/Layout.jsx';
-import PublicRoute from './components/PublicRoute.jsx';
-import ProtectedRoute from './components/ProtectedRoute.jsx';
-import ErrorBoundary from './components/ErrorBoundary.jsx';
-import About from './components/About.jsx';
-import Contact from './components/Contact.jsx';
-import AllNotes from './components/AllNotes';
+
+// Layout and Route Guards
+import Layout from './components/layout/Layout.jsx';
+import ProtectedRoute from './routes/ProtectedRoute.jsx';
+import PublicRoute from './routes/PublicRoute.jsx';
+
+// Pages
+import HomePage from './pages/HomePage.jsx';
+import LoginPage from './pages/LoginPage.jsx';
+import RegisterPage from './pages/RegisterPage.jsx';
+import AllNotesPage from './pages/AllNotesPage.jsx';
+import UploadNotePage from './pages/UploadNotePage.jsx';
+import ViewNotePage from './pages/ViewNotePage.jsx';
+import PublicProfilePage from './pages/PublicProfilePage.jsx';
+import PurchasedNotesPage from './pages/PurchasedNotesPage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
+import ForgotPasswordPage from './pages/ForgotPasswordPage.jsx';
+import ResetPasswordPage from './pages/ResetPasswordPage.jsx';
+import NotFoundPage from './pages/NotFoundPage.jsx';
 
 const App = () => {
   return (
-    <ErrorBoundary>
-      <BrowserRouter>
-        <Routes>
-          <Route element={<PublicRoute />}>
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
+    <BrowserRouter>
+      <Routes>
+        {/* Public routes (Login/Register) that are only accessible when logged out */}
+        <Route element={<PublicRoute />}>
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+          <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
+        </Route>
+
+        {/* Main application routes with Navbar and Footer */}
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="notes" element={<AllNotesPage />} />
+          <Route path="notes/:noteId" element={<ViewNotePage />} />
+          <Route path="profile/:username" element={<PublicProfilePage />} />
+
+          {/* Protected Routes (User must be logged in) */}
+          <Route element={<ProtectedRoute />}>
+            <Route path="upload" element={<UploadNotePage />} />
+            <Route path="purchased-notes" element={<PurchasedNotesPage />} />
           </Route>
-          <Route element={<Layout />}>
-           <Route path="/about" element={<About />}/>
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/privacy" element={<div>Privacy Policy</div>}/>
-            <Route path="/" element={<Home />} />
-            <Route path="/notes/:noteId" element={<ViewNote />} />
-            <Route path="/profile/:username" element={<PublicProfile />} />
-      
-            <Route element={<ProtectedRoute />}>
-            <Route path="/notes" element={<AllNotes />} />
-              <Route path="/upload" element={<UploadNote />} />
-              <Route path="/purchased-notes" element={<PurchasedNotes />} />
-            </Route>
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </ErrorBoundary>
+
+          {/* Catch-all 404 Route */}
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

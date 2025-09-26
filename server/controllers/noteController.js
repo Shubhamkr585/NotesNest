@@ -3,7 +3,7 @@ import { ApiError } from '../utils/ApiError.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { Note } from '../models/note.models.js';
 import { User } from '../models/user.models.js';
-import { uploadOnCloudinary } from '../utils/cloudinary.js';
+import { uploadOnCloudinary, cloudinary } from '../utils/cloudinary.js';
 
 const createNote = asyncHandler(async (req, res) => {
   if (req.user.role !== 'seller') {
@@ -19,9 +19,7 @@ const createNote = asyncHandler(async (req, res) => {
   }
 
   const fileUpload = await uploadOnCloudinary(file);
-  if (!fileUpload?.url) {
-    throw new ApiError(500, 'File upload failed');
-  }
+  if (!fileUpload?.url) throw new ApiError(500, 'File upload failed');
 
   let coverUpload = null;
   if (cover) {
@@ -32,14 +30,17 @@ const createNote = asyncHandler(async (req, res) => {
     title,
     description,
     category,
-    price: parseFloat(price) || 0,
+    price: parseFloat(price) || 0, // Ensure price is a number
     fileUrl: fileUpload.url,
+    public_id: fileUpload.public_id,
     coverImageUrl: coverUpload?.url || null,
     uploadedBy: req.user._id,
-    isFeatured: isFeatured === 'true',
+    isFeatured: isFeatured === 'true' || isFeatured === true,
   });
 
-  return res.status(201).json(new ApiResponse(201, note, 'Note created successfully'));
+  return res.status(201).json(
+    new ApiResponse(201, note, 'Note created successfully')
+  );
 });
 
 const getNotes = asyncHandler(async (req, res) => {
@@ -52,7 +53,7 @@ const getNotes = asyncHandler(async (req, res) => {
 
   const notes = await Note.find(query)
     .populate('uploadedBy', 'userName')
-    .select('title description category price createdAt uploadedBy isFeatured')
+    .select('title description category price createdAt uploadedBy isFeatured coverImageUrl')
     .lean();
 
   const formattedNotes = notes.map(note => ({
@@ -65,37 +66,33 @@ const getNotes = asyncHandler(async (req, res) => {
 
 const getNoteById = asyncHandler(async (req, res) => {
   const { noteId } = req.params;
-
   const note = await Note.findById(noteId)
     .populate('uploadedBy', 'userName')
-    .select('title description category price fileUrl uploadedBy createdAt')
+    .select('title description category price fileUrl public_id uploadedBy createdAt coverImageUrl')
     .lean();
+  if (!note) throw new ApiError(404, 'Note not found');
+  
+  // Generate a new, correctly formed URL using the Cloudinary SDK
+  const resourceType = note.fileUrl.includes('/raw/') ? 'raw' : 'image';
+  const viewableUrl = cloudinary.url(note.public_id, {
+    resource_type: resourceType,
+    flags: ['inline'],
+    format: 'pdf' // Explicitly set format for raw files
+  });
 
-  if (!note) {
-    throw new ApiError(404, 'Note not found');
-  }
-
-  return res.status(200).json(new ApiResponse(200, {
-    ...note,
+  const formattedNote = { 
+    ...note, 
     authorUsername: note.uploadedBy?.userName || 'Unknown',
-  }, 'Note fetched successfully'));
+    fileUrl: viewableUrl // Override with the viewable URL
+  };
+  return res.status(200).json(new ApiResponse(200, formattedNote, 'Note fetched successfully'));
 });
 
 const getUploadedNotes = asyncHandler(async (req, res) => {
   const { username } = req.params;
-
-  const user = await User.findOne({
-    userName: { $regex: `^${username}$`, $options: 'i' }
-  }).select('_id').lean();
-
-  if (!user) {
-    throw new ApiError(404, 'User not found');
-  }
-
-  const notes = await Note.find({ uploadedBy: user._id })
-    .select('title description category price createdAt')
-    .lean();
-
+  const user = await User.findOne({ userName: { $regex: `^${username}$`, $options: 'i' } }).select('_id').lean();
+  if (!user) throw new ApiError(404, 'User not found');
+  const notes = await Note.find({ uploadedBy: user._id }).select('-__v').lean();
   return res.status(200).json(new ApiResponse(200, notes, 'Uploaded notes fetched successfully'));
 });
 
